@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 background: url(http://salehriaz.com/404Page/img/overlay_stars.svg);
+background-color: #222222;
 background-repeat: repeat;
 background-size: contain;
 background-position: left top;
