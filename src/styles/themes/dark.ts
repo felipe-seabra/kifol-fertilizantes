@@ -2,12 +2,12 @@ const dark = {
   title: 'dark',
 
   colors: {
-    primary: '#101010',
-    secundary: '#DC3545',
+    primary: '#00A859',
+    secundary: '#0E790C',
 
-    background: '#191919',
-    text: '#fff',
-    title: '#fff'
+    background: '#222222',
+    text: '#CCCCCC',
+    title: '#FFFFFF'
   }
 };
 
