@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -39,4 +39,9 @@ export const LogoAbout = styled.img`
   @media screen and (max-width: 990px) {
     display: none;
   }
+`;
+
+export const Separator = styled.img`
+  width: 100%;
+  margin-bottom: 2rem;
 `;

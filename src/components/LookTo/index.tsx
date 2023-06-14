@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, VideosCard, VideosContainer, VideosTitle } from './styles';
+import { Container, Separator, VideosCard, VideosContainer, VideosTitle } from './styles';
 import { logoSeparate } from '../../images';
 
 const videos = [
@@ -24,7 +24,7 @@ const videos = [
 function LookTo() {
   return (
     <Container>
-      <img src={logoSeparate} alt="Logo" />
+      <Separator src={logoSeparate} alt="Logo" />
       <h2>Veja o que os nossos clientes estão falando sobre nós!</h2>
       <VideosContainer>
         {videos.map((video) => (
