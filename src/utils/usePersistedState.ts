@@ -14,7 +14,7 @@ function usePresistedState(key: string): Response<string> {
   });
 
   useEffect(() => {
-    setCookie(null, 'USER_THEME', state, {
+    setCookie(null, 'kifolTheme', state, {
       maxAge: 30 * 24 * 60 * 60,
       path: '/'
     });

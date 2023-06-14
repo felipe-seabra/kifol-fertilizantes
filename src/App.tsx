@@ -14,7 +14,7 @@ import Content from './components/Content';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [persisted, setPersisted] = usePresistedState(dark.title);
+  const [persisted, setPersisted] = usePresistedState(light.title);
   const [theme, setTheme] = useState(persisted === 'light' ? light : dark);
 
   const toggleTheme = () => {
