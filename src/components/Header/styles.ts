@@ -1,17 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: absolute;
   width: 100%;
   padding-left: 30px;
   text-align: right;
   padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '2em' : '30px'};
   border-top: 30px solid ${(props) => props.theme.colors.primary}};
   z-index: 999;
-
-  header {
-    height: 12.5vh;
-  }
 
   .header__links {
     display: flex;
@@ -68,6 +63,7 @@ export const Container = styled.div`
     background: ${(props) => props.theme.colors.secundary};
     opacity: 0.5;
     transition: 0.4s;
+    margin-right: 30px;
   }
   
   .navbar-toggler:hover {
@@ -78,6 +74,10 @@ export const Container = styled.div`
 
 export const Logo = styled.img`
   max-width: 200px;
+
+  @media screen and (max-width: 990px) {
+    max-width: 150px;
+  }
 `;
 
 export const Icon = styled.i`

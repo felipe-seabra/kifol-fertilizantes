@@ -41,7 +41,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
   return (
     <header>
       <Container>
-        <Navbar collapseOnSelect expand="md">
+        <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand>
             <Link to="/" className="header__logo">
               <Logo src={logo} alt="Logo Kifol" />

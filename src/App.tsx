@@ -27,16 +27,14 @@ function App() {
   return (
     <BrowserRouter>
       <ThemeProvider theme={theme}>
-        <div className="App">
-          <GlobalStyle />
-          <Header toggleTheme={toggleTheme} />
-          <main>
-            <Content />
-          </main>
-          <Footer />
-          <ScrollToTopButton />
-          <CookieConsentComponent />
-        </div>
+        <GlobalStyle />
+        <Header toggleTheme={toggleTheme} />
+        <main>
+          <Content />
+        </main>
+        <ScrollToTopButton />
+        <CookieConsentComponent />
+        <Footer />
       </ThemeProvider>
     </BrowserRouter>
   );

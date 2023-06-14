@@ -11,11 +11,12 @@ export default createGlobalStyle`
     background: ${(props) => props.theme.colors.background};
     font-size: 14px;
     color: ${(props) => props.theme.colors.text};
-    font-family: 'Josefin Sans', sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100%;
   }
 
   main {
-    height: 80vh;
+    min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  margin-bottom: 5rem;
 `;
 
 export const TextContainer = styled.div`
@@ -25,4 +24,8 @@ export const TextContainer = styled.div`
 
 export const LogoAbout = styled.img`
   max-width: 300px;
+
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
 `;

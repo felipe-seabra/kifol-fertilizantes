@@ -1,27 +1,32 @@
-import React, { CSSProperties, useState } from 'react';
-import { useLocation } from 'react-router-dom';
-import { Container } from './styles';
+import React from 'react';
 
-type Position = 'absolute' | 'relative';
+import { Link } from 'react-router-dom';
+import { Container, SocialNetworks, TextToFooter } from './styles';
+
+const SOCIAL_NETWORKS = [
+  { url: 'https://github.com/felipe-seabra', iconClass: 'bx bxl-github' },
+  { url: 'https://www.linkedin.com/in/felipe-seabra', iconClass: 'bx bxl-linkedin' },
+  { url: 'https://www.instagram.com/felipeseabra_', iconClass: 'bx bxl-instagram' },
+  { url: 'mailto:contato@felipeseabra.dev.br', iconClass: 'bx bx-envelope' }
+];
 
 function Footer() {
-  const [position, setPosition] = useState<Position>(
-    window.location.pathname === '/' ? 'absolute' : 'relative'
-  );
-
-  const ContainerStyle: CSSProperties = { position };
-  const location = useLocation();
-
-  React.useEffect(() => {
-    setPosition(location.pathname === '/' ? 'absolute' : 'relative');
-  }, [location.pathname]);
-
   return (
-    <footer>
-      <Container style={ContainerStyle}>
-        <div>Felipe S. - &copy; 2022</div>
-      </Container>
-    </footer>
+    <Container>
+      <SocialNetworks>
+        {SOCIAL_NETWORKS.map((network) => (
+          <Link
+            target="_blank"
+            to={network.url}
+            rel="noreferrer"
+            style={{ textDecoration: 'none' }}
+            className="social-link">
+            <i className={network.iconClass} />
+          </Link>
+        ))}
+      </SocialNetworks>
+      <TextToFooter>Felipe S. - &copy; 2022</TextToFooter>
+    </Container>
   );
 }
 

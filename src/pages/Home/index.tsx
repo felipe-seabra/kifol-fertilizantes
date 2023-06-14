@@ -5,6 +5,7 @@ import { Container } from './styles';
 
 import About from '../../components/About';
 import ProductsLine from '../../components/ProductsLine';
+import LookTo from '../../components/LookTo';
 
 function Home() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function Home() {
     <Container>
       <About />
       <ProductsLine />
+      <LookTo />
     </Container>
   );
 }

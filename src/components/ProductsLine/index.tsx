@@ -1,7 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { Container } from './styles';
+import { Container, ProductsImage } from './styles';
+import { products } from '../../images';
 
 export default function ProductsLine() {
-  return <Container>ProductsLine</Container>;
+  return (
+    <Container>
+      <ProductsImage src={products} />
+      <Link className="home-btn" to="/products">
+        Conheça Nossos Produtos
+      </Link>
+    </Container>
+  );
 }
