@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Content from './components/Content';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CookieConsentComponent from './components/CookieConsentComponent';
 
 function App() {
   const [persisted, setPersisted] = usePresistedState(light.title);
@@ -32,6 +33,7 @@ function App() {
             <Content />
           </main>
           <Footer />
+          <CookieConsentComponent />
         </div>
       </ThemeProvider>
     </BrowserRouter>
