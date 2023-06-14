@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding-left: 30px;
   text-align: right;
   padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '2em' : '30px'};
-  background: ${(props) => props.theme.colors.primary}};
+  border-top: 30px solid ${(props) => props.theme.colors.primary}};
   z-index: 999;
 
   header {
@@ -82,4 +82,8 @@ export const Container = styled.div`
     opacity: 1;
   }
 }
+`;
+
+export const Logo = styled.img`
+  max-width: 200px;
 `;

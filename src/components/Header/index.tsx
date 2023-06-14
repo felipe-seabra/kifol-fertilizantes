@@ -6,7 +6,8 @@ import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import { shade } from 'polished';
 
-import { Container } from './styles';
+import { logo } from '../../images';
+import { Container, Logo } from './styles';
 
 interface Props {
   toggleTheme(): void;
@@ -41,8 +42,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
         <Navbar collapseOnSelect expand="md">
           <Navbar.Brand>
             <Link to="/" className="header__logo">
-              Theme
-              <span> Switcher</span>
+              <Logo src={logo} alt="Logo Kifol" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle
