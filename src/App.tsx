@@ -13,6 +13,7 @@ import Content from './components/Content';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CookieConsentComponent from './components/CookieConsentComponent';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   const [persisted, setPersisted] = usePresistedState(light.title);
@@ -33,6 +34,7 @@ function App() {
             <Content />
           </main>
           <Footer />
+          <ScrollToTopButton />
           <CookieConsentComponent />
         </div>
       </ThemeProvider>
