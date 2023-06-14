@@ -13,24 +13,16 @@ export const Container = styled.div`
     height: 12.5vh;
   }
 
-  .header__logo {
-    font-size: 1.5em;
-    cursor: pointer;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: #fff;
-  }
-
   .header__links {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '0' : '2em'};
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .navlink {
-    color: ${(props) => props.theme.colors.text};
+    color: ${(props) => props.theme.colors.primary};
     text-transform: uppercase;
     transition: transform 0.4s;
   }
@@ -86,4 +78,8 @@ export const Container = styled.div`
 
 export const Logo = styled.img`
   max-width: 200px;
+`;
+
+export const Icon = styled.i`
+  margin-right: 0.5em;
 `;
