@@ -58,7 +58,7 @@ function Form() {
 
   const handleFormSubmitIsLoading = (e: FormEvent<HTMLFormElement>): void => {
     setIsLoading(true);
-    console.log(formValues);
+    console.log(e);
     sendEmail(e);
   };
 
@@ -118,7 +118,7 @@ function Form() {
                 placeholder="Assunto"
                 autoFocus
                 value={formValues.subject}
-                name="name"
+                name="subject"
                 onChange={(e) =>
                   setFormValues({ ...formValues, subject: e.target.value })
                 }
