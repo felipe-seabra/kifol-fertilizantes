@@ -12,6 +12,10 @@ export const Container = styled.div`
   h2 {
     margin-bottom: 2rem;
   }
+
+  @media screen and (max-width: 990px) {
+    text-align: center;
+  }
 `;
 
 export const VideosContainer = styled.div`
@@ -39,9 +43,4 @@ export const LogoAbout = styled.img`
   @media screen and (max-width: 990px) {
     display: none;
   }
-`;
-
-export const Separator = styled.img`
-  width: 100%;
-  margin-bottom: 2rem;
 `;
