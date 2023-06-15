@@ -22,7 +22,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerSpeak = styled.div`
-  max-width: 200px;
+  max-width: 300px;
   margin-left: 3rem;
 
   @media screen and (max-width: 990px) {
