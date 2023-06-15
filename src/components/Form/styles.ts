@@ -4,9 +4,11 @@ export const Container = styled.div`
   position: relative;
   display: flex;
   margin-top: 2rem;
+  align-items: center;
 
   @media screen and (max-width: 990px) {
     flex-direction: column;
+    align-items: stretch;
   }
 
   .form {
