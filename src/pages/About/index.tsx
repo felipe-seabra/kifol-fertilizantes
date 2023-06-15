@@ -16,7 +16,7 @@ const TEXTS = [
 
 function About() {
   useEffect(() => {
-    setPageTitle('Kifol Fertilizantes');
+    setPageTitle('Quem Somos - Kifol Fertilizantes');
   }, []);
 
   return (
