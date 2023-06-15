@@ -1,41 +1,92 @@
 import styled from 'styled-components';
 
-export const Container = styled.footer`
-  position: relative;
-  width: 100%;
-  padding: 0 30px;
-  margin-top: 2rem;
-`;
-
-export const SocialNetworks = styled.div`
+export const FooterContainer = styled.div`
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  padding: 20px;
+  background-color: ${(props) => props.theme.colors.background};
+  color: ${(props) => props.theme.colors.text};
+  border-top: 1px solid ${(props) => props.theme.colors.secundary};
+  border-bottom: 1px solid ${(props) => props.theme.colors.secundary};
+  margin-top: 30px;
 
-  .social-link {
-    background-color: ${(props) => props.theme.colors.secundary};
-    width: 40px;
-    height: 40px;
-    padding: 15px;
-    border-radius: 50%;
-    margin: 0px 5px 7px 5px;
-    color: ${(props) => props.theme.colors.background};
-    text-decoration: none;
-    font-size: 20px;
-    align-items: center;
+  div {
     display: flex;
-    justify-content: center;
-    transition: transform 0.4s;
+    flex-direction: column;
   }
 
-  .social-link:hover {
-    transform: scale(1.2);
+  h4 {
+    color: ${(props) => props.theme.colors.secundary};
+  }
+
+  i {
+    color: ${(props) => props.theme.colors.secundary};
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: ${(props) => props.theme.colors.secundary};
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
 `;
 
-export const TextToFooter = styled.div`
+export const FooterColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  min-height: 150px;
+  margin: 10px;
+  position: relative;
+
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    text-align: left;
+  }
+`;
+
+export const FooterText = styled.p`
+  font-size: 0.9rem;
+  margin: 5px 0;
+`;
+
+export const FooterLink = styled.a`
+  cursor: pointer;
+  color: ${(props) => props.theme.colors.text};
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+export const MapIcon = styled.i`
+  font-size: 18px;
+  margin-right: 5px;
+`;
+
+export const Copy = styled.div`
   color: ${(props) => props.theme.colors.secundary};
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 999;
+`;
+
+export const LogoFooter = styled.img`
+  width: 250px;
 `;
