@@ -25,7 +25,6 @@ function Form() {
     name: '',
     email: '',
     phone: '',
-    subject: '',
     message: '',
     checkbox: false
   });
@@ -57,8 +56,8 @@ function Form() {
   };
 
   const handleFormSubmitIsLoading = (e: FormEvent<HTMLFormElement>): void => {
+    console.log(e.target);
     setIsLoading(true);
-    console.log(e);
     sendEmail(e);
   };
 
@@ -84,7 +83,7 @@ function Form() {
                 required
               />
             </FloatingLabel>
-            {/* input all email */}
+            {/* input email */}
             <RequiredField isValid={verifyFieldEmail(formValues.email)} />
             <FloatingLabel controlId="floatingInput" label="E-mail*" className="mb-3">
               <BootstrapForm.Control
@@ -106,21 +105,6 @@ function Form() {
                 name="phone"
                 onChange={(e) =>
                   setFormValues({ ...formValues, phone: phoneMask(e.target.value) })
-                }
-                required
-              />
-            </FloatingLabel>
-            {/* input all subject */}
-            <RequiredField isValid={verifyFieldSubject(formValues.subject)} />
-            <FloatingLabel controlId="floatingInput" label="Assunto*" className="mb-3">
-              <BootstrapForm.Control
-                type="text"
-                placeholder="Assunto"
-                autoFocus
-                value={formValues.subject}
-                name="subject"
-                onChange={(e) =>
-                  setFormValues({ ...formValues, subject: e.target.value })
                 }
                 required
               />
