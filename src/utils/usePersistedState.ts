@@ -7,14 +7,14 @@ function usePresistedState(key: string): Response<string> {
   const [state, setState] = useState(() => {
     const cookies = parseCookies();
 
-    if (cookies.USER_THEME) {
-      return cookies.USER_THEME;
+    if (cookies.KIFOL_THEME) {
+      return cookies.KIFOL_THEME;
     }
     return key;
   });
 
   useEffect(() => {
-    setCookie(null, 'kifolTheme', state, {
+    setCookie(null, 'KIFOL_THEME', state, {
       maxAge: 30 * 24 * 60 * 60,
       path: '/'
     });
