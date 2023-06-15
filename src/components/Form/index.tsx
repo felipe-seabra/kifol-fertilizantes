@@ -12,8 +12,7 @@ import verifyBtn, {
   verifyFieldEmail,
   verifyFieldMessage,
   verifyFieldCheckbox,
-  verifyFieldPhone,
-  verifyFieldSubject
+  verifyFieldPhone
 } from '../../utils/verifyBtn';
 import { IFormValues } from '../../interfaces';
 import phoneMask from '../../utils/phoneMask';
