@@ -18,7 +18,8 @@ export const TextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
+    text-align: stretch;
   }
 `;
 
