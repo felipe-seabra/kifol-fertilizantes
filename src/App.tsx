@@ -14,6 +14,7 @@ import Content from './components/Content';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CookieConsentComponent from './components/CookieConsentComponent';
 import ScrollToTopButton from './components/ScrollToTopButton';
+import { AppContextProvider } from './context/Provider';
 
 function App() {
   const [persisted, setPersisted] = usePresistedState(light.title);
@@ -26,16 +27,18 @@ function App() {
 
   return (
     <BrowserRouter>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <Header toggleTheme={toggleTheme} />
-        <main>
-          <Content />
-        </main>
-        <ScrollToTopButton />
-        <CookieConsentComponent />
-        <Footer />
-      </ThemeProvider>
+      <AppContextProvider>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <Header toggleTheme={toggleTheme} />
+          <main>
+            <Content />
+          </main>
+          <ScrollToTopButton />
+          <CookieConsentComponent />
+          <Footer />
+        </ThemeProvider>
+      </AppContextProvider>
     </BrowserRouter>
   );
 }

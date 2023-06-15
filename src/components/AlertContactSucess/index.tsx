@@ -19,13 +19,13 @@ function AlertContactSucess() {
         <Alert variant="success" className="container">
           <Alert.Heading>Enviado com sucesso!</Alert.Heading>
           <p>
-            Agradeço o seu contato e fico muito feliz em saber do seu interesse em meus{' '}
-            <em>serviços</em>
+            Agradecemos o seu contato e ficamos muito felizes em saber do seu interesse em
+            nossos <em>produtos</em>
             .
             <br />
           </p>
-          <p>Espero que sua experiência comigo supere as suas expectativas.</p>
-          <p className="mb-0">Retorno em breve.</p>
+          <p>Esperamos que sua experiência conosco supere as suas expectativas</p>
+          <p className="mb-0">Retornaremos em breve.</p>
         </Alert>
         <div className="mt-5">
           <Link to="/" className="global-btn">

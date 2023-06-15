@@ -16,10 +16,10 @@ export default createGlobalStyle`
   }
 
   main {
-    min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 80vh;
   }
 
   .global-btn {

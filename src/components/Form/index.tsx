@@ -58,6 +58,7 @@ function Form() {
 
   const handleFormSubmitIsLoading = (e: FormEvent<HTMLFormElement>): void => {
     setIsLoading(true);
+    console.log(formValues);
     sendEmail(e);
   };
 
