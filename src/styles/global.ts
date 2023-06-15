@@ -22,10 +22,6 @@ export default createGlobalStyle`
     align-items: center;
   }
 
-  span {
-    color: ${(props) => props.theme.colors.secundary};
-  }
-
   .global-btn {
     position: relative;
     display: inline-flex;
@@ -36,7 +32,8 @@ export default createGlobalStyle`
     border: 2px solid ${(props) => props.theme.colors.secundary};
     border-radius: 8px;
     font-size: 1.2rem;
-    color: ${(props) => props.theme.colors.secundary};
+    color: ${(props) => props.theme.colors.background};
+    background: ${(props) => props.theme.colors.primary};
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 0.1rem;
@@ -46,7 +43,6 @@ export default createGlobalStyle`
   }
 
   .global-btn:hover {
-    color: ${(props) => props.theme.colors.secundary};
     border: 2px solid ${(props) => props.theme.colors.secundary};
   }
 

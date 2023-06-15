@@ -118,7 +118,9 @@ function Form() {
                 autoFocus
                 value={formValues.subject}
                 name="name"
-                onChange={(e) => setFormValues({ ...formValues, name: e.target.value })}
+                onChange={(e) =>
+                  setFormValues({ ...formValues, subject: e.target.value })
+                }
                 required
               />
             </FloatingLabel>
