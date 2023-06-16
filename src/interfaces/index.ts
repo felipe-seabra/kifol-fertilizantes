@@ -5,3 +5,15 @@ export interface IFormValues {
   message: string;
   checkbox: boolean;
 }
+
+export interface IVideosHome {
+  id: number;
+  title: string;
+  url: string;
+  description: string;
+}
+
+export interface IVideosPage {
+  id: number;
+  url: string;
+}
