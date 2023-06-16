@@ -24,6 +24,10 @@ export const Container = styled.div`
   span {
     color: ${(props) => props.theme.colors.text};
   }
+
+  @media screen and (max-width: 990px) {
+    width: 90%;
+  }
 `;
 
 export const LogoAbout = styled.img`
