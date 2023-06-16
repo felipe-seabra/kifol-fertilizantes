@@ -36,4 +36,5 @@ export const ProductTitle = styled.h4`
 export const ProductImage = styled.img`
   width: 300px;
   border: 1px solid ${(props) => props.theme.colors.secundary};
+  border-radius: 8px;
 `;

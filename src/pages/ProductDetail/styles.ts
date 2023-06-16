@@ -55,6 +55,7 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 990px) {
+    flex-direction: column;
     width: 90%;
   }
 `;
@@ -63,6 +64,9 @@ export const DescriptionContainer = styled.div`
   padding: 2rem;
 
   @media screen and (max-width: 990px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0;
   }
 `;
@@ -72,12 +76,20 @@ export const ProductImage = styled.img`
   border: 1px solid ${(props) => props.theme.colors.secundary};
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-width: 990px) {
+    width: 90%;
+  }
 `;
 
 export const ProductTitle = styled.h4`
   font-size: 1.6rem;
   margin: 1rem 0;
   color: ${(props) => props.theme.colors.title};
+
+  @media screen and (max-width: 990px) {
+    text-align: center;
+  }
 `;
 
 export const ProductDescription = styled.p`
