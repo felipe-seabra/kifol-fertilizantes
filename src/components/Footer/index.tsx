@@ -25,9 +25,9 @@ function Footer() {
         </FooterColumn>
         <FooterColumn>
           <h4>Contato:</h4>
-          <Link to="tel:+551832216618">
+          <Link to="tel:+55997230188">
             <FooterLink>
-              <i className="bx bxs-phone" /> (18) 3221-6618
+              <i className="bx bxs-phone" /> (18) 99723-0188
             </FooterLink>
           </Link>
           <Link to={LINK_WHATSAPP} target="_blank">
