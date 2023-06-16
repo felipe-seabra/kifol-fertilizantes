@@ -3,6 +3,7 @@ import { Container, VideosCard, VideosContainer, VideosTitle } from './styles';
 import Separator from '../Separator';
 
 import { videosHome as videos } from '../../database/videos';
+import VideoCard from '../VideoCard';
 
 function LookTo() {
   return (
@@ -12,7 +13,7 @@ function LookTo() {
       <VideosContainer>
         {videos.map((video) => (
           <VideosCard>
-            <iframe key={video.url} src={video.url} title={video.title} allowFullScreen />
+            <VideoCard id={video.id} url={video.url} title={video.title} />
             <VideosTitle>{video.title}</VideosTitle>
             <p>{video.description}</p>
           </VideosCard>

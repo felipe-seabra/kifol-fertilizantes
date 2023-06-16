@@ -6,7 +6,7 @@ export interface IFormValues {
   checkbox: boolean;
 }
 
-export interface IVideos {
+export interface IVideo {
   id: number;
   title: string;
   url: string;

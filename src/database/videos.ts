@@ -1,6 +1,6 @@
-import { IVideos } from '../interfaces';
+import { IVideo } from '../interfaces';
 
-export const videosHome: IVideos[] = [
+export const videosHome: IVideo[] = [
   {
     id: 1,
     title: 'Ditinho',
@@ -21,7 +21,7 @@ export const videosHome: IVideos[] = [
   }
 ];
 
-export const videosPage: IVideos[] = [
+export const videosPage: IVideo[] = [
   {
     id: 1,
     title: 'Kifol Fertilizantes - Zezé Machado',

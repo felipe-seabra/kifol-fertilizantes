@@ -29,6 +29,7 @@ export const VideosCard = styled.div`
   max-width: 300px;
   flex-direction: column;
   margin: 0 1rem;
+  align-items: center;
   color: ${(props) => props.theme.colors.text};
 `;
 

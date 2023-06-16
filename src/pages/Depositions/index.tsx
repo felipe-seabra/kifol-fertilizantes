@@ -3,13 +3,14 @@ import setPageTitle from '../../utils/setPageTitle';
 
 import { videosPage as videos } from '../../database/videos';
 
-import { Container, TextContainer, VideosCard, VideosContainer } from './styles';
+import { Container, TextContainer, VideosContainer } from './styles';
+import VideoCard from '../../components/VideoCard';
 
 const TEXT = [
   `
 Somos uma empresa líder em nosso segmento e acreditamos que o protagonismo de nossas equipes faz de nós um time vencedor.`,
 
-  `Faça parte de nossa história! Junte-se a Nós!`
+  <strong>Faça parte de nossa história! Junte-se a Nós!</strong>
 ];
 
 function Depositions() {
@@ -27,10 +28,7 @@ function Depositions() {
       </TextContainer>
       <VideosContainer>
         {videos.map((video) => (
-          <VideosCard>
-            <iframe key={video.url} src={video.url} title={video.title} allowFullScreen />
-            <p>{video.description}</p>
-          </VideosCard>
+          <VideoCard id={video.id} url={video.url} title={video.title} />
         ))}
       </VideosContainer>
     </Container>
