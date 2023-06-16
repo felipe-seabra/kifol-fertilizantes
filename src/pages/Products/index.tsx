@@ -2,7 +2,13 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import setPageTitle from '../../utils/setPageTitle';
 
-import { Container, ProductContainer, ProductImage, ProductTitle } from './styles';
+import {
+  Container,
+  TextProducts,
+  ProductContainer,
+  ProductImage,
+  ProductTitle
+} from './styles';
 
 import { products } from '../../database/products';
 
@@ -13,6 +19,7 @@ function Products() {
 
   return (
     <Container>
+      <TextProducts>Produtos</TextProducts>
       {products.map((product) => (
         <Link to={`/products/${product.id}`}>
           <ProductContainer>

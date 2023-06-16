@@ -22,6 +22,11 @@ export const Container = styled.div`
   }
 `;
 
+export const TextProducts = styled.h1`
+  color: ${(props) => props.theme.colors.title};
+  margin-bottom: 2rem;
+`;
+
 export const ProductContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -30,7 +35,7 @@ export const ProductContainer = styled.div`
 
 export const ProductTitle = styled.h4`
   margin-top: 1rem;
-  color: ${(props) => props.theme.colors.title};
+  color: ${(props) => props.theme.colors.text};
 `;
 
 export const ProductImage = styled.img`
