@@ -4,7 +4,8 @@ import setPageTitle from '../../utils/setPageTitle';
 
 import {
   Container,
-  // TextProducts,
+  TitleProducts,
+  ContainerProducts,
   ProductContainer,
   ProductImage,
   ProductTitle
@@ -19,15 +20,17 @@ function Products() {
 
   return (
     <Container>
-      {/* <TextProducts>Produtos</TextProducts> */}
-      {products.map((product) => (
-        <Link to={`/products/${product.id}`}>
-          <ProductContainer>
-            <ProductImage src={product.image} alt={product.name} />
-            <ProductTitle>{product.name}</ProductTitle>
-          </ProductContainer>
-        </Link>
-      ))}
+      <TitleProducts>Produtos Kifol</TitleProducts>
+      <ContainerProducts>
+        {products.map((product) => (
+          <Link to={`/products/${product.id}`}>
+            <ProductContainer>
+              <ProductImage src={product.image} alt={product.name} />
+              <ProductTitle>{product.name}</ProductTitle>
+            </ProductContainer>
+          </Link>
+        ))}
+      </ContainerProducts>
     </Container>
   );
 }

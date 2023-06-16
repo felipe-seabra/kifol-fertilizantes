@@ -1,8 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 4rem;
+`;
+
+export const ContainerProducts = styled.div`
+  position: relative;
   max-width: 1000px;
   display: flex;
   justify-content: center;
@@ -24,7 +30,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TextProducts = styled.h1`
+export const TitleProducts = styled.h1`
   color: ${(props) => props.theme.colors.title};
   margin-bottom: 2rem;
 `;
