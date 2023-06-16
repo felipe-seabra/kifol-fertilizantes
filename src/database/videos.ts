@@ -1,6 +1,6 @@
-import { IVideosHome, IVideosPage } from '../interfaces';
+import { IVideos } from '../interfaces';
 
-export const videosHome: IVideosHome[] = [
+export const videosHome: IVideos[] = [
   {
     id: 1,
     title: 'Ditinho',
@@ -21,4 +21,55 @@ export const videosHome: IVideosHome[] = [
   }
 ];
 
-export const videosPage: IVideosPage[] = [];
+export const videosPage: IVideos[] = [
+  {
+    id: 1,
+    title: 'Kifol Fertilizantes - Zezé Machado',
+    url: 'https://www.youtube.com/embed/Jt3LQqzDrD4'
+  },
+  {
+    id: 2,
+    title: 'Kifol Fertilizantes - Joaquin Islei da Silva',
+    url: 'https://www.youtube.com/embed/lE-uyCcXcFA'
+  },
+  {
+    id: 3,
+    title: 'Kifol Fertilizantes - Ditinho',
+    url: 'https://www.youtube.com/embed/_lx_xeBEjik'
+  },
+  {
+    id: 4,
+    title: 'Kifol Fertilizantes - Ronaldo Xavier',
+    url: 'https://www.youtube.com/embed/D3aZ6lD_mQs'
+  },
+  {
+    id: 5,
+    title: 'Kifol Fertilizantes - Renilton Quiroz',
+    url: 'https://www.youtube.com/embed/mi9IVgHX0Kw'
+  },
+  {
+    id: 6,
+    title: 'Kifol Fertilizantes - José Floriano',
+    url: 'https://www.youtube.com/embed/chS4uOgTqgw'
+  },
+  {
+    id: 7,
+    title: 'Kifol Fertilizantes - Adão',
+    url: 'https://www.youtube.com/embed/wdWIFR4OEzg'
+  },
+  {
+    id: 8,
+    title: 'Kifol Fertilizantes - Nilson Belchor',
+    url: 'https://www.youtube.com/embed/LrAI-DlSmVg'
+  },
+  {
+    id: 9,
+    title: 'Kifol Fertilizantes - Suya Kodawara',
+    url: 'https://www.youtube.com/embed/7aS50PFjDpo'
+  },
+  {
+    id: 10,
+    title: 'Kifol Fertilizantes - Jair pereira',
+    url: 'https://www.youtube.com/embed/66ltFNMVRco'
+  }
+];
