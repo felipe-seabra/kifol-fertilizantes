@@ -27,7 +27,7 @@ export default createGlobalStyle`
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    min-width: 150px;
     height: 100%;
     border: 2px solid ${(props) => props.theme.colors.secundary};
     border-radius: 8px;

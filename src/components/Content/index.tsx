@@ -8,12 +8,14 @@ import Thanks from '../../pages/Thanks';
 import Sorry from '../../pages/Sorry';
 import Depositions from '../../pages/Depositions';
 import Products from '../../pages/Products';
+import ProductDetail from '../../pages/ProductDetail';
 
 function Content() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/products/:id" element={<ProductDetail />} />
       <Route path="/products" element={<Products />} />
       <Route path="/depositions" element={<Depositions />} />
       <Route path="/contact" element={<Contact />} />
