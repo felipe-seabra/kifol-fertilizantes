@@ -6,12 +6,14 @@ import About from '../../pages/About';
 import Contact from '../../pages/Contact';
 import Thanks from '../../pages/Thanks';
 import Sorry from '../../pages/Sorry';
+import Depositions from '../../pages/Depositions';
 
 function Content() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="/depositions" element={<Depositions />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/thanks" element={<Thanks />} />
       <Route path="/error" element={<Sorry />} />
