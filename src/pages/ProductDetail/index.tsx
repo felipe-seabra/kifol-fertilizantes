@@ -31,7 +31,9 @@ function ProductDetail() {
       <ProductImage src={image} alt={name} />
       <DescriptionContainer>
         <ProductTitle>{name}</ProductTitle>
-        <ProductDescription>{description}</ProductDescription>
+        {description?.map((paragraph) => (
+          <ProductDescription>{paragraph}</ProductDescription>
+        ))}
         <Link className="product-btn" to="/contact">
           Solicite um Orçamento
         </Link>

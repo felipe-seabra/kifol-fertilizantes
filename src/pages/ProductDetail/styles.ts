@@ -26,6 +26,7 @@ export const Container = styled.div`
     z-index: 1;
     overflow: hidden;
     transition: 0.5s;
+    margin-top: 1rem;
   }
 
   .product-btn:hover {
@@ -94,5 +95,4 @@ export const ProductTitle = styled.h4`
 
 export const ProductDescription = styled.p`
   font-size: 1rem;
-  margin-bottom: 2rem;
 `;

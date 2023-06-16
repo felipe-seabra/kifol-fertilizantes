@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   margin-top: 4rem;
-  max-width: 500px;
+  max-width: 1000px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   a {
     text-decoration: none;
@@ -19,6 +20,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 990px) {
     width: 90%;
+    flex-direction: column;
   }
 `;
 
@@ -31,6 +33,7 @@ export const ProductContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1rem;
 `;
 
 export const ProductTitle = styled.h4`

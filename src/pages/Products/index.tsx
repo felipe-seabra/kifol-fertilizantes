@@ -4,7 +4,7 @@ import setPageTitle from '../../utils/setPageTitle';
 
 import {
   Container,
-  TextProducts,
+  // TextProducts,
   ProductContainer,
   ProductImage,
   ProductTitle
@@ -19,7 +19,7 @@ function Products() {
 
   return (
     <Container>
-      <TextProducts>Produtos</TextProducts>
+      {/* <TextProducts>Produtos</TextProducts> */}
       {products.map((product) => (
         <Link to={`/products/${product.id}`}>
           <ProductContainer>
