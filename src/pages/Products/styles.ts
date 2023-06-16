@@ -10,6 +10,7 @@ export const Container = styled.div`
 export const ContainerProducts = styled.div`
   position: relative;
   max-width: 1000px;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;

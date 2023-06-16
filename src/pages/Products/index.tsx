@@ -12,6 +12,7 @@ import {
 } from './styles';
 
 import { products } from '../../database/products';
+import Separator from '../../components/Separator';
 
 function Products() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function Products() {
           </Link>
         ))}
       </ContainerProducts>
+      <Separator />
     </Container>
   );
 }
