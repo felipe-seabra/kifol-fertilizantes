@@ -2,7 +2,7 @@
 import React, { useState, useContext, FormEvent } from 'react';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { Form as BootstrapForm, Button, FloatingLabel } from 'react-bootstrap';
-import { Container, ContainerSpeak } from './styles';
+import { Container, TitleForm, ContainerSpeak } from './styles';
 import { AppContext } from '../../context/Provider';
 
 import RequiredField from '../../helpers/RequiredField';
@@ -63,7 +63,7 @@ function Form() {
   return (
     <Container>
       <div className="mb-5">
-        <h2 className="text-center mb-4">Entre em contato!</h2>
+        <TitleForm className="text-center mb-4">Entre em contato!</TitleForm>
         <BootstrapForm className="form" onSubmit={handleFormSubmitIsLoading}>
           <>
             {/* input all name */}

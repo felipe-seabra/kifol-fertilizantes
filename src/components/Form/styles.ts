@@ -23,9 +23,17 @@ export const Container = styled.div`
   }
 `;
 
+export const TitleForm = styled.h2`
+  color: ${(prop) => prop.theme.colors.title};
+`;
+
 export const ContainerSpeak = styled.div`
   max-width: 300px;
   margin-left: 3rem;
+
+  h4 {
+    color: ${(prop) => prop.theme.colors.title};
+  }
 
   @media screen and (max-width: 990px) {
     max-width: 500px;
