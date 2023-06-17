@@ -71,5 +71,15 @@ export const videosPage: IVideo[] = [
     id: 10,
     title: 'Kifol Fertilizantes - Jair pereira',
     url: 'https://www.youtube.com/embed/66ltFNMVRco'
+  },
+  {
+    id: 11,
+    title: 'Kifol Fertilizantes - Carlos Machado',
+    url: 'https://www.youtube.com/embed/76lmpMsbv8M'
+  },
+  {
+    id: 12,
+    title: 'Kifol Fertilizantes - Odair Estiva',
+    url: 'https://www.youtube.com/embed/OMSaSTdnm0A'
   }
 ];
