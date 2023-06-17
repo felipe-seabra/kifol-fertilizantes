@@ -8,7 +8,7 @@ import VideoCard from '../../components/VideoCard';
 
 const TEXT = [
   `
-Somos uma empresa líder em nosso segmento e acreditamos que o protagonismo de nossas equipes faz de nós um time vencedor.`,
+  Somos uma empresa líder em nosso segmento e atribuímos nosso sucesso ao protagonismo de nossas equipes, que nos torna um time vencedor.`,
 
   <strong>Faça parte de nossa história! Junte-se a Nós!</strong>
 ];
