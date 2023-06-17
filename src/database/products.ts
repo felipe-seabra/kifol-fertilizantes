@@ -23,7 +23,11 @@ export const products: IProduct[] = [
     image: aminoFlower,
     name: 'AMINO FLOWER',
     description: [
-      `O KIFOL AMINO FLOWER é um fertilizante foliar de líquido facilmente absorvido pelas folhas, caules e raízes das plantas. Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro, proporcionam uma nutrição mais equilibrada, ajudando a melhorar a produtividade e a qualidade da lavoura. Seu elevado conteúdo nutricional, quando usado em épocas e recomendações apropriadas, melhora a recuperação de plantas em condições de stress. Este fertilizante melhora o aspecto visual dos frutos como: brilho e coloração. A Flower, ainda é um estimulador de borda, o que proporciona um aumento de produção. O uso racional deste produto, tem como conseqüência o aumento do calibre e homogeneidade dos frutos.`
+      `O KIFOL AMINO FLOWER é um fertilizante foliar líquido facilmente absorvido pelas folhas, caules e raízes das plantas. Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro proporciona uma nutrição equilibrada, que auxilia na melhoria da produtividade e qualidade da lavoura.`,
+
+      `Com seu alto conteúdo nutricional e o uso adequado, especialmente em períodos e doses recomendadas, o fertilizante contribui para a recuperação das plantas em condições de estresse.`,
+
+      `Além disso, o KIFOL AMINO FLOWER melhora o aspecto visual dos frutos, conferindo-lhes brilho e coloração, e também atua como estimulador de brotação, promovendo um aumento na produção. O uso consciente desse produto resulta no aumento do tamanho e na uniformidade dos frutos.`
     ]
   },
   {
@@ -31,7 +35,9 @@ export const products: IProduct[] = [
     image: Boro10,
     name: 'BORO 10%',
     description: [
-      `O Kifol Boro 10% é um fertilizante foliar líquido, elaborado para suprir as necessidades de boro, em plantas de interesse econômico. Além disso, este micronutriente tem um papel fundamental na prevenção de rachaduras e deformações dos frutos. A carência de boro, pode também, manifestar-se por uma clorose ou necrose dos brotos.`
+      `O Kifol Boro 10% é um fertilizante foliar líquido elaborado para suprir as necessidades de boro em plantas de interesse econômico.`,
+
+      `Além disso, esse micronutriente desempenha um papel fundamental na prevenção de rachaduras e deformações nos frutos. A deficiência de boro também pode se manifestar por meio de clorose ou necrose dos brotos.`
     ]
   },
   {
@@ -39,7 +45,13 @@ export const products: IProduct[] = [
     image: CalcioBoro,
     name: 'CÁLCIO BORO',
     description: [
-      `O KIFOL CÁLCIO-BORO, é um fertilizante líquido com dois elementos fundamentais para a formação das plantas e frutos. O Cálcio produz o aumento dafecundação das ?ores, ?xação dos botões ?orais e fruti?cação. Além disso, é recomendado para evitar o aparecimento de distúrbios ?siológicos causados pela carência de cálco como: podridão estilar (fundo preto) frequente em tomate e pimentão, falhas na granação em amendoim, soja, feijão, café, ervilha, embonecamento e o coração oco na batata. Já o Boro é um nutriente indispensável. A de?ciência de Boro pode resultar em rachaduras profundas, e deformação dos frutos. A carência de Boro pode também se manifestar também por uma clorose ou necrose dos brotos.`
+      `O KIFOL CÁLCIO-BORO é um fertilizante líquido que contém dois elementos fundamentais para o desenvolvimento das plantas e frutos.`,
+
+      `O cálcio contribui para o aumento da fecundação das flores, fixação dos botões florais e frutificação.`,
+
+      `Além disso, é recomendado para prevenir o aparecimento de distúrbios fisiológicos causados pela carência de cálcio, como a podridão estilar (fundo preto) frequentemente observada em tomates e pimentões, falhas na granação em amendoim, soja, feijão, café e ervilha, bem como embonecamento e coração oco em batatas.`,
+
+      `Já o boro é um nutriente indispensável. A deficiência de boro pode resultar em rachaduras profundas e deformação dos frutos. A carência de boro também pode se manifestar por meio de clorose ou necrose dos brotos.`
     ]
   },
   {
@@ -53,7 +65,11 @@ export const products: IProduct[] = [
     image: Cobmol,
     name: 'COBMOL',
     description: [
-      `O COBMOL, é um fertilizante especialmente desenvolvido para a correção das de?ciências de molibdênio e cobalto em diversas culturas. O Molibdênio por sua vez, é muito importante para a assimilação de nitrogênio em forma de nitratos. Além de suprir as de?ciências, o COBMOL, estimula o metabolismo geral das plantas, aumentando a síntese de proteínas, produzindo um resultado satisfatório no desenvolvimento e na fruti?cação. O Cobmol auxilia ainda as plantas com di?culdade em desenvolver o sistema radicular, principalmente no aumento de radicelas.`
+      `O COBMOL é um fertilizante especialmente desenvolvido para corrigir as deficiências de molibdênio e cobalto em diversas culturas. O molibdênio desempenha um papel crucial na assimilação de nitrogênio na forma de nitratos.`,
+
+      `Além de suprir essas deficiências, o COBMOL estimula o metabolismo geral das plantas, aumentando a síntese de proteínas e proporcionando um resultado satisfatório no desenvolvimento e na frutificação.`,
+
+      `O Cobmol também auxilia as plantas que têm dificuldade em desenvolver o sistema radicular, principalmente no aumento de radicelas.`
     ]
   },
   {
@@ -61,7 +77,13 @@ export const products: IProduct[] = [
     image: CupratilMaxximum,
     name: 'CUPRATIL MAXXIMUM',
     description: [
-      `O CUPRATIL MAXIMUM, é a junção de dois elementos importantes para todas as plantas, o cálcio e o cobre. O cálcio é muito recomendado em todas as fases da planta. Uma vez que este nutriente ajuda no aumento de fecundação das ?ores, além de promover uma melhor formação dos frutos em diversas culturas. O cobre participa nos processos de respiração e fotossíntese, mantendo as folhas verdes e sadias. Além disso, este produto poderá evitar as ?xações de uredosporo, espórios e micélios responsáveis pela formação e procriação de fungos e bactérias.`
+      `O CUPRATIL MAXIMUM é uma combinação de dois elementos importantes para todas as plantas: cálcio e cobre.`,
+
+      `O cálcio é altamente recomendado em todas as fases do desenvolvimento das plantas, pois ajuda a aumentar a fecundação das flores e promove uma melhor formação dos frutos em diversas culturas.`,
+
+      `O cobre desempenha um papel essencial nos processos de respiração e fotossíntese, mantendo as folhas verdes e saudáveis.`,
+
+      `Além disso, este produto pode prevenir a infestação de uredosporos, esporos e micélios responsáveis pela formação e disseminação de fungos e bactérias.`
     ]
   },
   {
@@ -69,7 +91,11 @@ export const products: IProduct[] = [
     image: CupratilCobre,
     name: 'CUPRATIL COBRE',
     description: [
-      `O CUPRATIL, é um fertilizante foliar líquido a base de Cobre. O Cobre participa nos processos de respiração e fotossíntese, mantendo as plantas verdes e sadias. O Cobre, é um excelente ativador de enzimas aminoácidos.`
+      `O CUPRATIL é um fertilizante foliar líquido à base de Cobre.`,
+
+      `O Cobre participa nos processos de respiração e fotossíntese, mantendo as plantas verdes e saudáveis.`,
+
+      `O Cobre é um excelente ativador de enzimas e aminoácidos.`
     ]
   },
   {
@@ -77,8 +103,13 @@ export const products: IProduct[] = [
     image: FertPos0,
     name: 'STRIKE',
     description: [
-      `O STRIKE é um fertilizante foliar com uma formulação balanceada, desenvolvida para suprir as deficiências de micronutrientes nas plantas.
-    O STRIKE promove o equilíbrio, o que aumenta o estímulo no metabolismo das plantas, melhorando assim, a síntese de proteínas. As consequências são um melhor desenvolvimento, fruticação, aumento de produtivdade e qualidade dos frutos. Além dos micronutrientes , o STRIKE traz ainda em sua formulação o Potássio, que além de estimular a absorção dos micros e macronutrientes, age na granação e formação dos frutos.`
+      `O STRIKE é um fertilizante foliar com uma formulação balanceada, desenvolvida para suprir as deficiências de micronutrientes nas plantas.`,
+
+      `O STRIKE promove o equilíbrio necessário, o que estimula o metabolismo das plantas e melhora a síntese de proteínas.`,
+
+      `Como resultado, observa-se um melhor desenvolvimento, frutificação, aumento da produtividade e qualidade dos frutos.`,
+
+      `Além dos micronutrientes, o STRIKE também contém potássio em sua formulação, que estimula a absorção dos micro e macronutrientes, além de contribuir para a granação e formação dos frutos.`
     ]
   },
   {
@@ -86,7 +117,13 @@ export const products: IProduct[] = [
     image: Fosfito3020,
     name: 'FOSFITO 3020',
     description: [
-      `O KIFOL FOSFITO é um fertilizante composto com características especiais, para aplicação foliar, desenvolvido para suprir as de?ciências de fósforo e potássio em plantas de diversas culturas. Este fertilizante possui um elevado grau de digestibilidade e velocidade de translocação nos tecidos das plantas, além disso o fos?to é um excelente promotor das defesas naturais da planta e indutor de ?toalexina de maneira que auxilia na prevenção de agentes patogênicos como fungos e bactérias. O fósforo está diretamente ligado ao desenvolvimento e produtividade das lavouras. O potássio é extremamente essencial na fase de enchimento de frutos e grãos. Além de auxiliar na coloração, brilho, sabor, tamanho e textura dos produtos.`
+      `O KIFOL FOSFITO é um fertilizante com características especiais, desenvolvido para suprir as deficiências de fósforo e potássio em plantas de diversas culturas por meio da aplicação foliar.`,
+
+      `Esse fertilizante possui uma alta digestibilidade e velocidade de translocação nos tecidos das plantas.`,
+
+      `Além disso, o fosfito atua como um excelente promotor das defesas naturais das plantas e induz a produção de fitoalexinas, auxiliando na prevenção de agentes patogênicos como fungos e bactérias.`,
+
+      `O fósforo desempenha um papel fundamental no desenvolvimento e produtividade das lavouras, enquanto o potássio é essencial na fase de enchimento de frutos e grãos, contribuindo para a coloração, brilho, sabor, tamanho e textura dos produtos.`
     ]
   },
   {
@@ -94,7 +131,11 @@ export const products: IProduct[] = [
     image: Fosfito4020,
     name: 'FOSFITO 4020',
     description: [
-      `O KIFOL FOSFITO é um fertilizante composto com características especiais, para aplicação foliar, desenvolvido para suprir as de?ciências de fósforo e potássio em plantas de diversas culturas. Este fertilizante possui um elevado grau de digestibilidade e velocidade de translocação nos tecidos das plantas, além disso o fos?to é um excelente promotor das defesas naturais da planta e indutor de ?toalexina de maneira que auxilia na prevenção de agentes patogênicos como fungos e bactérias. O fósforo está diretamente ligado ao desenvolvimento e produtividade das lavouras. O potássio é extremamente essencial na fase de enchimento de frutos e grãos. Além de auxiliar na coloração, brilho, sabor, tamanho e textura dos produtos.`
+      `O KIFOL FOSFITO é um fertilizante composto com características especiais, desenvolvido para suprir as deficiências de fósforo e potássio em plantas de diversas culturas por meio da aplicação foliar.`,
+
+      `Este fertilizante possui um elevado grau de digestibilidade e velocidade de translocação nos tecidos das plantas.`,
+
+      `Além disso, o fosfito é um excelente promotor das defesas naturais da planta e um indutor de fitoalexinas, auxiliando na prevenção de agentes patogênicos como fungos e bactérias. O fósforo está diretamente ligado ao desenvolvimento e produtividade das lavouras, enquanto o potássio é extremamente essencial na fase de enchimento de frutos e grãos. Além de auxiliar na coloração, brilho, sabor, tamanho e textura dos produtos.`
     ]
   },
   {
@@ -116,7 +157,15 @@ export const products: IProduct[] = [
     image: Organics,
     name: 'ORGANICS',
     description: [
-      `O ORGANICS, é um fertilizante Organo-Mineral, que ocorre a partir da biofermentação de elementos essenciais para o desenvolvimento das plantas. Um produto que reúne teores balanceados de Matéria Orgânica, além de nutrientes. O uso racional deste poderoso produto estimula o sistema radicular das plantas, o que permite o melhor aproveitamento dos nutrientes existentes nos solos. Isso é possível, porque este produto forma quelatos com os nutrientes, o que facilita a absorção pela raiz. Além disso. o ORGANICS estimula o metabolismo da planta, proporcionando uma nutrição equilibrada e cheia de vantagens, como: maior produtividade, desenvolvimento das raízes, folhas e ?ores. Frutos graúdos com coloração e brilho. Fortalecimento das defesas sanitárias, além de ser um e?ciente anti-stress. O ORGANICS ativa os micro organismos bené?cos dos solos, o que permite o melhor aproveitamento do potencial produtivo da planta.`
+      `O ORGANICS é um fertilizante Organo-Mineral obtido a partir da biofermentação de elementos essenciais para o desenvolvimento das plantas.`,
+
+      `Esse produto reúne teores balanceados de matéria orgânica e nutrientes.`,
+
+      `O uso racional desse poderoso produto estimula o sistema radicular das plantas, permitindo um melhor aproveitamento dos nutrientes presentes no solo. Isso é possível porque o ORGANICS forma quelatos com os nutrientes, facilitando sua absorção pelas raízes.`,
+
+      `Além disso, o ORGANICS estimula o metabolismo da planta, proporcionando uma nutrição equilibrada e repleta de vantagens, como maior produtividade, desenvolvimento das raízes, folhas e flores, frutos de maior tamanho com coloração e brilho intensos, fortalecimento das defesas sanitárias e eficiência no combate ao estresse.`,
+
+      `O ORGANICS ativa os microorganismos benéficos do solo, o que permite um melhor aproveitamento do potencial produtivo da planta.`
     ]
   },
   {
@@ -124,11 +173,11 @@ export const products: IProduct[] = [
     image: Teks,
     name: 'TEKS',
     description: [
-      `O TEKS é um fertilizante líquido concentrado com uma formulação balanceada em Fósforo, Potássio e Enxofre. Este produto foi desenvolvido no mais alto rigor de tecnologia em termos de produtos foliares. Sua fórmula minuciosamente estudada, produz um resultado satisfatório em culturas de maneira geral. O TEKS, é um fertilizante de fácil absorção pelas plantas. Este produto estimula o metabolismo da vegetal das plantas, o que promove um amento radicular, proporcionando uma maior absorção e aproveitamento dos nutrientes, inclusive aos aplicados no solo. Como consequência do uso racional de TEKS, as culturas apresentam um desenvolvimento vegetativo, o que resulta no aumento de produtividade e melhora na qualidade dos frutos como: coloração, brilho e frutos mais pesados. O enxofre é fundamental para a composição de proteínas e na nodulação de leguminosas. O Potássio é um nutriente indispensável para a granação e formação dos frutos e o Fósforo, nutriente muito importante em todas as fases da planta.`,
+      `O TEKS é um fertilizante líquido concentrado com uma formulação balanceada de Fósforo, Potássio e Enxofre. Este produto foi desenvolvido com o mais alto rigor tecnológico em termos de fertilizantes foliares. Sua fórmula, minuciosamente estudada, proporciona resultados satisfatórios em diversas culturas. O TEKS é facilmente absorvido pelas plantas, estimulando o metabolismo vegetal e promovendo o aumento radicular, o que resulta em uma maior absorção e aproveitamento dos nutrientes, inclusive aqueles aplicados no solo. Como resultado do uso racional do TEKS, as culturas apresentam um desenvolvimento vegetativo que resulta em maior produtividade e melhoria na qualidade dos frutos, incluindo coloração, brilho e peso. O enxofre é fundamental para a composição de proteínas e a nodulação de leguminosas. O potássio é um nutriente indispensável para a formação e maturação dos frutos, e o fósforo desempenha um papel importante em todas as fases da planta.`,
 
-      `O TEKS não contém NITROGÊNIO (N), o que torna este fertilizante apropriado até mesmo em épocas de chuvas constantes, sem perigo de amolecer as plantas e frutos.`,
+      `O TEKS não contém nitrogênio (N), o que torna este fertilizante adequado mesmo em épocas de chuvas constantes, sem o risco de amolecer as plantas e os frutos.`,
 
-      `O TEKS é recomendado para plantas de todas as idades, devendo ser usado do começo ao fim da safra.`
+      `O TEKS é recomendado para plantas de todas as idades e deve ser usado desde o início até o final da safra.`
     ]
   },
   {
@@ -152,9 +201,15 @@ export const products: IProduct[] = [
     image: FertPos0,
     name: 'KI-FOLMAX 00-10-50',
     description: [
-      `O fertilizante KI-FOLMAX 00-10-50 , possui uma alta concentração de Potássio. Um fertilizante de fácil manuseio por ser totalmente solúvel, o que torna a aplicação mais eficiente, poupando tempo nas pulverizações.`,
+      `O fertilizante KI-FOLMAX 00-10-50 possui alta concentração de potássio. É um fertilizante de fácil manuseio por ser totalmente solúvel, o que torna a aplicação mais eficiente, poupando tempo nas pulverizações.`,
 
-      `É recomendando em plantas na ocasião de fruti?cação pois, nesta fase, a maioria das culturas necessita de mais Potássio. Por isso a aplicação do FERTILIZANTE KI-FOLMAX 00-10-50, na fase de fruti?cação proporciona uma melhor granação dos cereais e um completo desenvolvimento e enchimento dos frutos mas demais culturas como morango, tomate, uva, batata, o que resulta no aumento de produtividade. Uma vez que este nutriente auxilia na coloração, na resistência da polpa e casca, no teor de açúcar e acidez dos frutos de maneira geral. Além disso, o KI-FOLMAX 00-10-50 traz em sua fórmulação o Fósforo, um excelente nutriente muito importante para as plantas na fase de pré e pós ?orada.`
+      `É recomendado em plantas durante a fase de frutificação, pois a maioria das culturas necessita de mais potássio nesse período.`,
+
+      `A aplicação do fertilizante KI-FOLMAX 00-10-50 na fase de frutificação proporciona uma melhor granação dos cereais e um completo desenvolvimento e enchimento dos frutos em outras culturas, como morango, tomate, uva e batata, resultando no aumento da produtividade.`,
+
+      `Esse nutriente auxilia na coloração, resistência da polpa e casca, teor de açúcar e acidez dos frutos de maneira geral.`,
+
+      `Além disso, o KI-FOLMAX 00-10-50 contém em sua formulação o fósforo, um excelente nutriente essencial para as plantas nas fases pré e pós-floração`
     ]
   },
   {
@@ -162,9 +217,11 @@ export const products: IProduct[] = [
     image: FertPos0,
     name: 'KIFOL MICROS',
     description: [
-      `O KIFOL MICROS é um fertilizante foliar com uma formulação balanceada. Além de corrigir as de?ciências minerais, quando aplicado nas dosagens e épocas recomendadas, ele estimula o metabolismo das plantas. O que produz um efeito que chamamos de ARRANQUE.`,
+      `O KIFOL MICROS é um fertilizante foliar com uma formulação balanceada.`,
 
-      `O resultado é uma melhora na fruti?cação, produtividade e qualidade dos frutos.`
+      `Além de corrigir as deficiências minerais, quando aplicado nas dosagens e épocas recomendadas, ele estimula o metabolismo das plantas, o que produz um efeito que chamamos de ARRANQUE.`,
+
+      `O resultado é uma melhora na frutificação, produtividade e qualidade dos frutos`
     ]
   }
 ];
