@@ -29,4 +29,5 @@ export const VideosContainer = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1000px;
+  margin-bottom: 2rem;
 `;

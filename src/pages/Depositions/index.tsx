@@ -5,6 +5,7 @@ import { videosPage as videos } from '../../database/videos';
 
 import { Container, TextContainer, VideosContainer } from './styles';
 import VideoCard from '../../components/VideoCard';
+import Separator from '../../components/Separator';
 
 const TEXT = [
   `
@@ -31,6 +32,7 @@ function Depositions() {
           <VideoCard id={video.id} url={video.url} title={video.title} />
         ))}
       </VideosContainer>
+      <Separator />
     </Container>
   );
 }
