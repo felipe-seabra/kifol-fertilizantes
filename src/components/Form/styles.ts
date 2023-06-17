@@ -18,7 +18,15 @@ export const Container = styled.div`
     min-width: 40vw;
   }
 
-  .checkbox {
+  input {
+    margin-top: 0.5rem;
+  }
+
+  textarea {
+    margin-top: 0.5rem;
+  }
+
+  checkbox {
     color: ${(prop) => prop.theme.colors.text};
   }
 `;
