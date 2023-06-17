@@ -9,9 +9,7 @@ const TEXTS = [
 
   `Desde o início, a KIFOL FERTILIZANTES sempre procurou trabalhar de olho na tecnologia, inovando e buscando novas perspectivas que facilitassem a vida do agricultor. E, foi nesta visão futurista, que a empresa fincou suas ações, dedicou-se a trabalhar somente com inovações: fertilizantes altamente balanceados e com formulações exclusivas que atendem praticamente todas as culturas produzidas no Brasil.`,
 
-  `A tradição da Empresa sempre foi o compromisso assumido com o agricultor. Essa relação de confiança, conseguida com resultados no campo, foi que fez a empresa crescer e consolidar-se na Agricultura Brasileira.`,
-
-  `Com uma equipe altamente capacitada, a KIFOL, atua hoje praticamente em todo o território Nacional.`
+  `A tradição da Empresa sempre foi o compromisso assumido com o agricultor. Essa relação de confiança, conseguida com resultados no campo, foi que fez a empresa crescer e consolidar-se na Agricultura Brasileira.`
 ];
 
 function About() {
