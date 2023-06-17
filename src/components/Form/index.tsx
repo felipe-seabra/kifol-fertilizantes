@@ -17,6 +17,8 @@ import verifyBtn, {
 import { IFormValues } from '../../interfaces';
 import phoneMask from '../../utils/phoneMask';
 
+const TEXT = `Valorizamos muito a sua opinião e queremos ouvir o que você tem a dizer. Por isso, reservamos este espaço especialmente para que você possa compartilhar seus comentários, sugestões e esclarecer quaisquer dúvidas que possa ter. Escreva para nós! É simples, rápido e teremos imenso prazer em responder.`;
+
 function Form() {
   const { setSubmitForm, setErrorSubmitForm, setIsLoading } = useContext(AppContext);
 
@@ -70,7 +72,7 @@ function Form() {
             <RequiredField isValid={verifyFieldName(formValues.name)} />
             <FloatingLabel
               controlId="floatingInput"
-              label="Nome completo*"
+              label="Nome completo."
               className="mb-3">
               <BootstrapForm.Control
                 type="text"
@@ -84,7 +86,7 @@ function Form() {
             </FloatingLabel>
             {/* input email */}
             <RequiredField isValid={verifyFieldEmail(formValues.email)} />
-            <FloatingLabel controlId="floatingInput" label="E-mail*" className="mb-3">
+            <FloatingLabel controlId="floatingInput" label="E-mail." className="mb-3">
               <BootstrapForm.Control
                 type="email"
                 placeholder="name@example.com"
@@ -96,7 +98,7 @@ function Form() {
             </FloatingLabel>
             {/* input phone */}
             <RequiredField isValid={verifyFieldPhone(formValues.phone)} />
-            <FloatingLabel controlId="floatingInput" label="Telefone*" className="mb-3">
+            <FloatingLabel controlId="floatingInput" label="Telefone." className="mb-3">
               <BootstrapForm.Control
                 type="tel"
                 placeholder="(xx)xxxxx-xxxx"
@@ -112,7 +114,7 @@ function Form() {
             <RequiredField isValid={verifyFieldMessage(formValues.message)} />
             <FloatingLabel
               controlId="floatingTextarea2"
-              label="Deixe sua mensagem aqui*"
+              label="Deixe sua mensagem aqui."
               className="mb-3">
               <BootstrapForm.Control
                 as="textarea"
@@ -155,12 +157,7 @@ function Form() {
         <p>
           <strong>Envie seu e-mail para nós.</strong>
         </p>
-        <p>
-          Nós estamos muito interessados no que você tem a dizer. Por isso, criamos este
-          espaço especialmente para você fazer seus comentários, dar sugestões e
-          esclarecer dúvidas. Escreva pra gente! É fácil, rápido e teremos o maior prazer
-          em responder.
-        </p>
+        <p>{TEXT}</p>
       </ContainerSpeak>
     </Container>
   );
