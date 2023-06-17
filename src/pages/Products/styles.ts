@@ -18,6 +18,7 @@ export const ContainerProducts = styled.div`
 
   a {
     text-decoration: none;
+    transition: 0.5s;
   }
 
   a:hover {
