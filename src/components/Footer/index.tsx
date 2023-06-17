@@ -14,7 +14,7 @@ import { logo } from '../../images';
 const LOCATION = `https://www.google.com.br/maps/place/Kifol+Fertilizantes/@-22.1139596,-51.3532768,261m/data=!3m1!1e3!4m6!3m5!1s0x9493f5b555ffdba3:0x69b7fcf9cc1039f9!8m2!3d-22.1139596!4d-51.3526331!16s%2Fg%2F11svj7ljbw?entry=ttu`;
 
 const LINK_WHATSAPP =
-  'https://api.whatsapp.com/send?phone=55189975140&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20produtos!';
+  'https://api.whatsapp.com/send?phone=5518997230188&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20produtos!';
 
 function Footer() {
   return (
@@ -25,7 +25,7 @@ function Footer() {
         </FooterColumn>
         <FooterColumn>
           <h4>Contato:</h4>
-          <Link to="tel:+55997230188">
+          <Link to="tel:+5518997230188">
             <FooterLink>
               <i className="bx bxs-phone" /> (18) 99723-0188
             </FooterLink>
