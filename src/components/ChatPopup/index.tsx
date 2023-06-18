@@ -38,7 +38,8 @@ function ChatPopup() {
   };
 
   const containerStyle = {
-    bottom: isOpen ? '80px' : '20px'
+    bottom: isOpen ? '80px' : '20px',
+    cursor: isOpen ? 'auto' : 'pointer'
   };
 
   return (

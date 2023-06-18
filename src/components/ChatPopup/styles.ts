@@ -63,6 +63,7 @@ export const CloseButton = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 `;
 
 export const InputContainer = styled.div`
@@ -80,7 +81,7 @@ export const Input = styled.input`
   border-radius: 8px;
   outline: none;
   padding: 0 0 0 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 `;
 
 export const SendButton = styled.button`
