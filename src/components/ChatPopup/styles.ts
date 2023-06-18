@@ -27,7 +27,20 @@ export const WhatsAppIcon = styled.div`
   border-radius: 15px;
   padding: 10px 20px;
   margin-right: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  animation: shadow 5s ease-in-out infinite;
+
+  @keyframes shadow {
+    0% {
+      box-shadow: 0 0 0 -5px ${(props) => props.theme.colors.title};
+    }
+    50% {
+      box-shadow: 0 0 10px ${(props) => props.theme.colors.title};
+    }
+    100% {
+      box-shadow: 0 0 0 -5px ${(props) => props.theme.colors.title};
+    }
+  }
 `;
 
 export const IconWhats = styled.i`
