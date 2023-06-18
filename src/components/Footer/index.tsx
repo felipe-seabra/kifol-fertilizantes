@@ -59,7 +59,7 @@ function Footer() {
           </FooterLink>
         </FooterColumn>
       </FooterContainer>
-      <Copy className="mt-2">Kifol Fertilizantes - &copy; 2023</Copy>
+      <Copy className="mt-2">Kifol Fertilizantes &copy;</Copy>
     </footer>
   );
 }
