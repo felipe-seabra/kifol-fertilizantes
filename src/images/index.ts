@@ -1,4 +1,5 @@
 export { default as logo } from './logo.png';
+export { default as logoK } from './logo-k.png';
 export { default as products } from './linha-de-produtos.png';
 export { default as background } from './bg-produtos.jpg';
 export { default as logoSeparate } from './separador.png';
