@@ -11,7 +11,7 @@ import {
 } from './styles';
 import { logo } from '../../images';
 
-const LOCATION = `https://www.google.com.br/maps/place/Kifol+Fertilizantes/@-22.1139596,-51.3532768,261m/data=!3m1!1e3!4m6!3m5!1s0x9493f5b555ffdba3:0x69b7fcf9cc1039f9!8m2!3d-22.1139596!4d-51.3526331!16s%2Fg%2F11svj7ljbw?entry=ttu`;
+const LOCATION = `https://www.google.com/maps/place/Kifol+Fertilizantes/@-22.1205939,-51.3899879,17z/data=!3m1!4b1!4m6!3m5!1s0x9493f57ecc8add7d:0xb426a735286ed776!8m2!3d-22.1205939!4d-51.3874076!16s%2Fg%2F11kq9hsd49?hl=pt-BR&entry=ttu`;
 
 const LINK_WHATSAPP =
   'https://api.whatsapp.com/send?phone=5518997230188&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20produtos!';
