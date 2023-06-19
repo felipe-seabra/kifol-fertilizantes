@@ -5,6 +5,14 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
+
+  .product-img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid ${(props) => props.theme.colors.secundary};
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 export const ContainerProducts = styled.div`
