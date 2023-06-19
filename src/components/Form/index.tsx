@@ -158,6 +158,9 @@ function Form() {
           <strong>Envie seu e-mail para nós.</strong>
         </p>
         <p>{TEXT}</p>
+        <p>
+          <strong>E-mail: &nbsp; </strong>kifol@kifol.com.br
+        </p>
       </ContainerSpeak>
     </Container>
   );
