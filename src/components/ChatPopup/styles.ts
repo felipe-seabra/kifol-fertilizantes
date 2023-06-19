@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+const primaryColor = '#33a587';
+
 export const ChatContainer = styled.div`
   position: fixed;
   bottom: 80px;
@@ -12,7 +14,7 @@ export const ChatContainer = styled.div`
 `;
 
 export const PopupContainer = styled.div`
-  background-color: #33a587;
+  background-color: ${primaryColor};
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -23,7 +25,7 @@ export const PopupContainer = styled.div`
 export const WhatsAppIcon = styled.div`
   display: flex;
   align-items: center;
-  background-color: #33a587;
+  background-color: ${primaryColor};
   border-radius: 15px;
   padding: 10px 20px;
   margin-right: 10px;
@@ -55,7 +57,7 @@ export const Icon = styled.i`
 
 export const IconSend = styled.i`
   margin: 0 auto;
-  color: #33a587 !important;
+  color: ${primaryColor} !important;
   font-size: 25px;
 `;
 
@@ -67,7 +69,7 @@ export const CloseButton = styled.button`
   position: absolute;
   top: -25px;
   right: -25px;
-  background-color: #33a587;
+  background-color: ${primaryColor};
   border: none;
   border-radius: 50%;
   width: 30px;
