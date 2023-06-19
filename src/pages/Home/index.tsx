@@ -14,8 +14,8 @@ function Home() {
 
   return (
     <Container>
-      <About />
       <ProductsLine />
+      <About />
       <LookTo />
     </Container>
   );

@@ -4,18 +4,19 @@ import { background } from '../../images';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  height: 500px;
   background-image: url(${background});
   overflow: hidden;
   background-position: center 0px;
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 
   .home-btn {
-    margin-top: 4rem;
+    // margin-top: 4rem;
+    bottom: 0;
     margin-bottom: 4rem;
     position: relative;
     display: inline-flex;
@@ -61,6 +62,7 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 990px) {
+    height: 300px;
     .home-btn {
       min-width: 250px;
       font-size: 0.8rem;
