@@ -90,6 +90,7 @@ export const Slogan = styled.h1`
   @media screen and (max-width: 990px) {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
 `;
 
