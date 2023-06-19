@@ -91,6 +91,8 @@ export const Slogan = styled.h1`
     font-size: 1.5rem;
     margin-bottom: 2rem;
     text-align: center;
+
+    -webkit-text-stroke: 0;
   }
 `;
 
