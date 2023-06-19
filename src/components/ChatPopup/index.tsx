@@ -47,7 +47,9 @@ function ChatPopup() {
       {!isOpen && (
         <WhatsAppIcon onClick={handleTogglePopup}>
           <IconWhats className="bx bxl-whatsapp" style={{ color: 'white' }} />
-          <span style={{ fontSize: '14px', color: 'white' }}>Oi, como posso ajudar?</span>
+          <span style={{ fontSize: '14px', color: 'white' }}>
+            Olá, como posso ajudar?
+          </span>
         </WhatsAppIcon>
       )}
       {isOpen && (
