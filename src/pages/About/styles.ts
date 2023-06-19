@@ -34,3 +34,12 @@ export const LogoAbout = styled.img`
   max-width: 300px;
   margin-bottom: 2rem;
 `;
+
+export const Title = styled.h5`
+  color: ${(props) => props.theme.colors.title};
+`;
+
+export const Icon = styled.i`
+  color: #00a859;
+  font-size: 3rem;
+`;
