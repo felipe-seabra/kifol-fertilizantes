@@ -23,7 +23,7 @@ function About() {
           desempenha suas atividades em praticamente todo o território nacional.&quot;
         </span>
       </blockquote>
-      <Title>Nos siga também nas redes sociais.</Title>
+      <Title>Nos siga também nas redes sociais:</Title>
       <div>
         <a
           href="https://www.instagram.com/kifol_fertilizantes/"

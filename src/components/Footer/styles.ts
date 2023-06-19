@@ -12,16 +12,7 @@ export const FooterContainer = styled.div`
   border-bottom: 1px solid ${(props) => props.theme.colors.secundary};
   margin-top: 30px;
 
-  div {
-    display: flex;
-    flex-direction: column;
-  }
-
   h4 {
-    color: ${(props) => props.theme.colors.secundary};
-  }
-
-  i {
     color: ${(props) => props.theme.colors.secundary};
   }
 
@@ -45,7 +36,6 @@ export const FooterColumn = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 250px;
   min-height: 150px;
   margin: 10px;
   position: relative;
@@ -67,10 +57,18 @@ export const FooterLink = styled.a`
   font-size: 0.9rem;
   text-decoration: none;
   transition: opacity 0.2s ease-in-out;
+  display: flex;
+  margin: 5px 0;
 
   &:hover {
     opacity: 0.8;
   }
+`;
+
+export const FooterIcon = styled.i`
+  color: ${(props) => props.theme.colors.secundary};
+  font-size: 1.3rem;
+  margin-right: 5px;
 `;
 
 export const MapIcon = styled.i`

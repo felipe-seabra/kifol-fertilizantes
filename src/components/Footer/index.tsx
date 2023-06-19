@@ -4,6 +4,7 @@ import {
   Copy,
   FooterColumn,
   FooterContainer,
+  FooterIcon,
   FooterLink,
   FooterText,
   LogoFooter,
@@ -28,17 +29,17 @@ function Footer() {
           <h4>Contato:</h4>
           <Link to="tel:+5518997514067">
             <FooterLink>
-              <i className="bx bxs-phone" /> (18) 99723-0188
+              <FooterIcon className="bx bxs-phone" /> (18) 99723-0188
             </FooterLink>
           </Link>
           <Link to={LINK_WHATSAPP} target="_blank">
             <FooterLink>
-              <i className="bx bxl-whatsapp" /> WhatsApp
+              <FooterIcon className="bx bxl-whatsapp" /> WhatsApp
             </FooterLink>
           </Link>
           <Link to="mailto:kifol@kifol.com.br">
             <FooterLink>
-              <i className="bx bxs-envelope" /> Email
+              <FooterIcon className="bx bxs-envelope" /> kifol@kifol.com.br
             </FooterLink>
           </Link>
         </FooterColumn>
@@ -46,21 +47,23 @@ function Footer() {
           <h4>Localização:</h4>
           <FooterText>
             <MapIcon>
-              <i className="bx bxs-map" />
+              <FooterIcon className="bx bxs-map" />
             </MapIcon>
             Estrada para 7 copas, Km 02 Bairro União
           </FooterText>
           <FooterText>Presidente Prudente - SP</FooterText>
-          <FooterText>Caixa Postal 2311 CEP19030-972</FooterText>
+          <FooterText>Caixa Postal 2311 CEP: 19030-972</FooterText>
           <FooterLink href={LOCATION} target="_blank">
             <MapIcon>
-              <i className="bx bxs-map" />
+              <FooterIcon className="bx bxs-map" />
             </MapIcon>
             Como Chegar
           </FooterLink>
         </FooterColumn>
       </FooterContainer>
-      <Copy className="mt-2">Kifol Fertilizantes &copy;</Copy>
+      <Copy className="mt-2">
+        Kifol Fertilizantes &copy; - Todos os direitos reservados
+      </Copy>
       <ChatPopup />
     </footer>
   );
