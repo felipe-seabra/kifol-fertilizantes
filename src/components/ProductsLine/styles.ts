@@ -70,6 +70,29 @@ export const Container = styled.div`
   }
 `;
 
+export const Slogan = styled.h1`
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+  color: ${(props) => props.theme.colors.primary};
+  display: inline;
+  padding: 10px;
+  text-shadow: 2px 2px 4px white;
+  font-weight: 600;
+  font-size: 3.5rem;
+
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+
+  @media screen and (max-width: 1058px) {
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 990px) {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+`;
+
 export const ProductsImage = styled.img`
   margin-top: 4rem;
   width: 70%;
