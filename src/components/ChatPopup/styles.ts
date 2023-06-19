@@ -8,7 +8,7 @@ export const ChatContainer = styled.div`
   right: 2rem;
   display: flex;
   align-items: center;
-  z-index: 9999;
+  z-index: 998;
   cursor: pointer;
   transition: bottom 0.3s ease-in-out;
 `;
