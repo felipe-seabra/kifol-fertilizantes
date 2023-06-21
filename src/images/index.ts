@@ -8,7 +8,7 @@ export { default as logoSeparate } from './separador.png';
 
 export { default as aminoFlower } from './products/AminoFlower.png';
 export { default as Boro10 } from './products/Boro10.png';
-export { default as CalcioBoro } from './products/CalcioBoro.png';
+export { default as KIFOLMAX } from './products/KI-FOLMAX.png';
 export { default as Calibre } from './products/Calibre.png';
 export { default as Cobmol } from './products/Cobmol.png';
 export { default as CupratilCobre } from './products/CupratilCobre.png';

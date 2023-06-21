@@ -1,7 +1,7 @@
 import {
   aminoFlower,
   Boro10,
-  CalcioBoro,
+  KIFOLMAX,
   Calibre,
   Cobmol,
   CupratilMaxximum,
@@ -42,10 +42,10 @@ export const products: IProduct[] = [
   },
   {
     id: 3,
-    image: CalcioBoro,
-    name: 'CÁLCIO BORO',
+    image: KIFOLMAX,
+    name: 'KI-FOLMAX',
     description: [
-      `O KIFOL CÁLCIO-BORO é um fertilizante líquido que contém dois elementos fundamentais para o desenvolvimento das plantas e frutos.`,
+      `O KIFOL KI-FOLMAX CÁLCIO-BORO é um fertilizante líquido que contém dois elementos fundamentais para o desenvolvimento das plantas e frutos.`,
 
       `O cálcio contribui para o aumento da fecundação das flores, fixação dos botões florais e frutificação.`,
 
