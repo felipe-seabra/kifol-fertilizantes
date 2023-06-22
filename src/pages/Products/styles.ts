@@ -63,3 +63,32 @@ export const ProductImage = styled.img`
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 `;
+
+export const InputSearchContainer = styled.div`
+  width: 248px;
+  position: relative;
+  margin-bottom: 2rem;
+`;
+
+export const InputSearch = styled.input`
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid ${(props) => props.theme.colors.secundary};
+  border-radius: 8px;
+  outline: none;
+  padding: 0 0 0 10px;
+`;
+
+export const IconSearch = styled.i`
+  margin: 0 auto;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: ${(props) => props.theme.colors.secundary};
+`;
