@@ -26,11 +26,13 @@ function Products() {
     setLoaded(true);
   };
 
+  const sortedProducts = products.sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <Container>
       <TitleProducts>Produtos Kifol</TitleProducts>
       <ContainerProducts>
-        {products.map((product) => (
+        {sortedProducts.map((product) => (
           <Link to={`/products/${product.id}`}>
             <ProductContainer>
               <ProductImage

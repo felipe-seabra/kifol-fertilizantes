@@ -20,14 +20,18 @@ import { IProduct } from '../interfaces';
 export const products: IProduct[] = [
   {
     id: 1,
-    image: aminoFlower,
-    name: 'AMINO FLOWER',
+    image: Organics,
+    name: 'ORGANICS',
     description: [
-      `O KIFOL AMINO FLOWER é um fertilizante foliar líquido facilmente absorvido pelas folhas, caules e raízes das plantas. Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro proporciona uma nutrição equilibrada, que auxilia na melhoria da produtividade e qualidade da lavoura.`,
+      `O ORGANICS é um fertilizante Organo-Mineral obtido a partir da biofermentação de elementos essenciais para o desenvolvimento das plantas.`,
 
-      `Com seu alto conteúdo nutricional e o uso adequado, especialmente em períodos e doses recomendadas, o fertilizante contribui para a recuperação das plantas em condições de estresse.`,
+      `Esse produto reúne teores balanceados de matéria orgânica e nutrientes.`,
 
-      `Além disso, o KIFOL AMINO FLOWER melhora o aspecto visual dos frutos, conferindo-lhes brilho e coloração, e também atua como estimulador de brotação, promovendo um aumento na produção. O uso consciente desse produto resulta no aumento do tamanho e na uniformidade dos frutos.`
+      `O uso racional desse poderoso produto estimula o sistema radicular das plantas, permitindo um melhor aproveitamento dos nutrientes presentes no solo. Isso é possível porque o ORGANICS forma quelatos com os nutrientes, facilitando sua absorção pelas raízes.`,
+
+      `Além disso, o ORGANICS estimula o metabolismo da planta, proporcionando uma nutrição equilibrada e repleta de vantagens, como maior produtividade, desenvolvimento das raízes, folhas e flores, frutos de maior tamanho com coloração e brilho intensos, fortalecimento das defesas sanitárias e eficiência no combate ao estresse.`,
+
+      `O ORGANICS ativa os microorganismos benéficos do solo, o que permite um melhor aproveitamento do potencial produtivo da planta.`
     ]
   },
   {
@@ -43,7 +47,7 @@ export const products: IProduct[] = [
   {
     id: 3,
     image: KIFOLMAX,
-    name: 'KI-FOLMAX',
+    name: 'CÁLCIO-BORO',
     description: [
       `O KIFOL KI-FOLMAX CÁLCIO-BORO é um fertilizante líquido que contém dois elementos fundamentais para o desenvolvimento das plantas e frutos.`,
 
@@ -75,7 +79,7 @@ export const products: IProduct[] = [
   {
     id: 6,
     image: CupratilMaxximum,
-    name: 'CUPRATIL MAXXIMUM',
+    name: 'CUPRATIL MAXIMUM',
     description: [
       `O CUPRATIL MAXIMUM é uma combinação de dois elementos importantes para todas as plantas: cálcio e cobre.`,
 
@@ -100,16 +104,10 @@ export const products: IProduct[] = [
   },
   {
     id: 8,
-    image: FertPos0,
-    name: 'STRIKE',
+    image: Zinfol,
+    name: 'ZINFOL',
     description: [
-      `O STRIKE é um fertilizante foliar com uma formulação balanceada, desenvolvida para suprir as deficiências de micronutrientes nas plantas.`,
-
-      `O STRIKE promove o equilíbrio necessário, o que estimula o metabolismo das plantas e melhora a síntese de proteínas.`,
-
-      `Como resultado, observa-se um melhor desenvolvimento, frutificação, aumento da produtividade e qualidade dos frutos.`,
-
-      `Além dos micronutrientes, o STRIKE também contém potássio em sua formulação, que estimula a absorção dos micro e macronutrientes, além de contribuir para a granação e formação dos frutos.`
+      `Zinfol, produto elaborado para suprir as necessidades de Zinco em plantas de interesse econômico, visando uma melhor formação da planta, dando maior resistência contra doenças.`
     ]
   },
   {
@@ -154,18 +152,14 @@ export const products: IProduct[] = [
   },
   {
     id: 13,
-    image: Organics,
-    name: 'ORGANICS',
+    image: aminoFlower,
+    name: 'AMINO FLOWER',
     description: [
-      `O ORGANICS é um fertilizante Organo-Mineral obtido a partir da biofermentação de elementos essenciais para o desenvolvimento das plantas.`,
+      `O KIFOL AMINO FLOWER é um fertilizante foliar líquido facilmente absorvido pelas folhas, caules e raízes das plantas. Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro proporciona uma nutrição equilibrada, que auxilia na melhoria da produtividade e qualidade da lavoura.`,
 
-      `Esse produto reúne teores balanceados de matéria orgânica e nutrientes.`,
+      `Com seu alto conteúdo nutricional e o uso adequado, especialmente em períodos e doses recomendadas, o fertilizante contribui para a recuperação das plantas em condições de estresse.`,
 
-      `O uso racional desse poderoso produto estimula o sistema radicular das plantas, permitindo um melhor aproveitamento dos nutrientes presentes no solo. Isso é possível porque o ORGANICS forma quelatos com os nutrientes, facilitando sua absorção pelas raízes.`,
-
-      `Além disso, o ORGANICS estimula o metabolismo da planta, proporcionando uma nutrição equilibrada e repleta de vantagens, como maior produtividade, desenvolvimento das raízes, folhas e flores, frutos de maior tamanho com coloração e brilho intensos, fortalecimento das defesas sanitárias e eficiência no combate ao estresse.`,
-
-      `O ORGANICS ativa os microorganismos benéficos do solo, o que permite um melhor aproveitamento do potencial produtivo da planta.`
+      `Além disso, o KIFOL AMINO FLOWER melhora o aspecto visual dos frutos, conferindo-lhes brilho e coloração, e também atua como estimulador de brotação, promovendo um aumento na produção. O uso consciente desse produto resulta no aumento do tamanho e na uniformidade dos frutos.`
     ]
   },
   {
@@ -182,10 +176,16 @@ export const products: IProduct[] = [
   },
   {
     id: 15,
-    image: Zinfol,
-    name: 'ZINFOL',
+    image: FertPos0,
+    name: 'STRIKE',
     description: [
-      `Zinfol, produto elaborado para suprir as necessidades de Zinco em plantas de interesse econômico, visando uma melhor formação da planta, dando maior resistência contra doenças.`
+      `O STRIKE é um fertilizante foliar com uma formulação balanceada, desenvolvida para suprir as deficiências de micronutrientes nas plantas.`,
+
+      `O STRIKE promove o equilíbrio necessário, o que estimula o metabolismo das plantas e melhora a síntese de proteínas.`,
+
+      `Como resultado, observa-se um melhor desenvolvimento, frutificação, aumento da produtividade e qualidade dos frutos.`,
+
+      `Além dos micronutrientes, o STRIKE também contém potássio em sua formulação, que estimula a absorção dos micro e macronutrientes, além de contribuir para a granação e formação dos frutos.`
     ]
   },
   {
