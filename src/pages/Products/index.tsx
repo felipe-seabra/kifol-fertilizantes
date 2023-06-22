@@ -51,6 +51,7 @@ function Products() {
         <IconSearch className="bx bx-search-alt-2" />
       </InputSearchContainer>
       <ContainerProducts>
+        {!filterProducts().length && <p>Nenhum produto encontrado.</p>}
         {filterProducts().map((product) => (
           <Link to={`/products/${product.id}`} key={product.id}>
             <ProductContainer>
