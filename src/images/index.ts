@@ -1,5 +1,5 @@
-export { default as logo } from './logo.png';
-export { default as logoK } from './logo-k.png';
+export { default as logo } from './LOGO.png';
+export { default as logoK } from './LOGO-K.png';
 export { default as background } from './BG-BANNER.jpg';
 export { default as BANNER } from './BANNER.png';
 export { default as logoSeparate } from './separator.png';
