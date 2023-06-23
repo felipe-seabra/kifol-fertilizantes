@@ -1,26 +1,23 @@
 import {
-  aminoFlower,
-  Boro10,
+  AMINOFLOWER,
+  BORO10,
   KIFOLMAX,
-  Calibre,
-  Cobmol,
-  CupratilMaxximum,
-  CupratilCobre,
-  FertPos0,
-  Fosfito3020,
-  Fosfito4020,
-  GreenFol,
-  Ksil,
-  Organics,
-  Teks,
-  Zinfol
+  CALIBRE,
+  COBMOL,
+  CUPRATIL,
+  FERTPOS,
+  FOSFITO,
+  GREENFOL,
+  ORGANICS,
+  TEKS,
+  ZINFOL
 } from '../images';
 import { IProduct } from '../interfaces';
 
 export const products: IProduct[] = [
   {
     id: 1,
-    image: Organics,
+    image: ORGANICS,
     name: 'ORGANICS',
     description: [
       `O ORGANICS é um fertilizante Organo-Mineral obtido a partir da biofermentação de elementos essenciais para o desenvolvimento das plantas.`,
@@ -36,7 +33,7 @@ export const products: IProduct[] = [
   },
   {
     id: 2,
-    image: Boro10,
+    image: BORO10,
     name: 'BORO 10%',
     description: [
       `O Kifol Boro 10% é um fertilizante foliar líquido elaborado para suprir as necessidades de boro em plantas de interesse econômico.`,
@@ -60,13 +57,13 @@ export const products: IProduct[] = [
   },
   {
     id: 4,
-    image: Calibre,
+    image: CALIBRE,
     name: 'CALIBRE',
     description: [`Calibre.`]
   },
   {
     id: 5,
-    image: Cobmol,
+    image: COBMOL,
     name: 'COBMOL',
     description: [
       `O COBMOL é um fertilizante especialmente desenvolvido para corrigir as deficiências de molibdênio e cobalto em diversas culturas. O molibdênio desempenha um papel crucial na assimilação de nitrogênio na forma de nitratos.`,
@@ -78,21 +75,7 @@ export const products: IProduct[] = [
   },
   {
     id: 6,
-    image: CupratilMaxximum,
-    name: 'CUPRATIL MAXIMUM',
-    description: [
-      `O CUPRATIL MAXIMUM é uma combinação de dois elementos importantes para todas as plantas: cálcio e cobre.`,
-
-      `O cálcio é altamente recomendado em todas as fases do desenvolvimento das plantas, pois ajuda a aumentar a fecundação das flores e promove uma melhor formação dos frutos em diversas culturas.`,
-
-      `O cobre desempenha um papel essencial nos processos de respiração e fotossíntese, mantendo as folhas verdes e saudáveis.`,
-
-      `Além disso, este produto pode prevenir a infestação de uredosporos, esporos e micélios responsáveis pela formação e disseminação de fungos e bactérias.`
-    ]
-  },
-  {
-    id: 7,
-    image: CupratilCobre,
+    image: CUPRATIL,
     name: 'CUPRATIL COBRE',
     description: [
       `O CUPRATIL é um fertilizante foliar líquido à base de Cobre.`,
@@ -103,30 +86,16 @@ export const products: IProduct[] = [
     ]
   },
   {
-    id: 8,
-    image: Zinfol,
+    id: 7,
+    image: ZINFOL,
     name: 'ZINFOL',
     description: [
       `Zinfol, produto elaborado para suprir as necessidades de Zinco em plantas de interesse econômico, visando uma melhor formação da planta, dando maior resistência contra doenças.`
     ]
   },
   {
-    id: 9,
-    image: Fosfito3020,
-    name: 'FOSFITO 3020',
-    description: [
-      `O KIFOL FOSFITO é um fertilizante com características especiais, desenvolvido para suprir as deficiências de fósforo e potássio em plantas de diversas culturas por meio da aplicação foliar.`,
-
-      `Esse fertilizante possui uma alta digestibilidade e velocidade de translocação nos tecidos das plantas.`,
-
-      `Além disso, o fosfito atua como um excelente promotor das defesas naturais das plantas e induz a produção de fitoalexinas, auxiliando na prevenção de agentes patogênicos como fungos e bactérias.`,
-
-      `O fósforo desempenha um papel fundamental no desenvolvimento e produtividade das lavouras, enquanto o potássio é essencial na fase de enchimento de frutos e grãos, contribuindo para a coloração, brilho, sabor, tamanho e textura dos produtos.`
-    ]
-  },
-  {
-    id: 10,
-    image: Fosfito4020,
+    id: 8,
+    image: FOSFITO,
     name: 'FOSFITO 4020',
     description: [
       `O KIFOL FOSFITO é um fertilizante composto com características especiais, desenvolvido para suprir as deficiências de fósforo e potássio em plantas de diversas culturas por meio da aplicação foliar.`,
@@ -137,22 +106,16 @@ export const products: IProduct[] = [
     ]
   },
   {
-    id: 11,
-    image: GreenFol,
+    id: 9,
+    image: GREENFOL,
     name: 'GREENFOL',
     description: [
       `O GREENFOL é um fertilizante foliar líquido, elaborado para suprir as necessidades de magnésio, uma vez que este nutriente tem um papel elementar tanto na formação como na vida útil, rejuvenescendo as plantas. Sua fórmula concentrada, contém mecanismos que incorporam adjuvantes para maximizar a e?ciência agronômica, assegurando a qualidade física do produto.`
     ]
   },
   {
-    id: 12,
-    image: Ksil,
-    name: 'KASIL',
-    description: [`Kasil.`]
-  },
-  {
-    id: 13,
-    image: aminoFlower,
+    id: 10,
+    image: AMINOFLOWER,
     name: 'AMINO FLOWER',
     description: [
       `O KIFOL AMINO FLOWER é um fertilizante foliar líquido facilmente absorvido pelas folhas, caules e raízes das plantas. Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro proporciona uma nutrição equilibrada, que auxilia na melhoria da produtividade e qualidade da lavoura.`,
@@ -163,8 +126,8 @@ export const products: IProduct[] = [
     ]
   },
   {
-    id: 14,
-    image: Teks,
+    id: 11,
+    image: TEKS,
     name: 'TEKS',
     description: [
       `O TEKS é um fertilizante líquido concentrado com uma formulação balanceada de Fósforo, Potássio e Enxofre. Este produto foi desenvolvido com o mais alto rigor tecnológico em termos de fertilizantes foliares. Sua fórmula, minuciosamente estudada, proporciona resultados satisfatórios em diversas culturas. O TEKS é facilmente absorvido pelas plantas, estimulando o metabolismo vegetal e promovendo o aumento radicular, o que resulta em uma maior absorção e aproveitamento dos nutrientes, inclusive aqueles aplicados no solo. Como resultado do uso racional do TEKS, as culturas apresentam um desenvolvimento vegetativo que resulta em maior produtividade e melhoria na qualidade dos frutos, incluindo coloração, brilho e peso. O enxofre é fundamental para a composição de proteínas e a nodulação de leguminosas. O potássio é um nutriente indispensável para a formação e maturação dos frutos, e o fósforo desempenha um papel importante em todas as fases da planta.`,
@@ -175,8 +138,8 @@ export const products: IProduct[] = [
     ]
   },
   {
-    id: 15,
-    image: FertPos0,
+    id: 12,
+    image: FERTPOS,
     name: 'STRIKE',
     description: [
       `O STRIKE é um fertilizante foliar com uma formulação balanceada, desenvolvida para suprir as deficiências de micronutrientes nas plantas.`,
@@ -189,16 +152,8 @@ export const products: IProduct[] = [
     ]
   },
   {
-    id: 16,
-    image: FertPos0,
-    name: '09-10-40',
-    description: [
-      `O FERTILIZANTE 09-10-40, possui alta concentração de potássio. Um fertilizante de fácil manuseio, por ser totalmente solúvel. O 09- 10-40 é recomendado para a correção das deficiências de fósforo, potássio e nitrogênio.`
-    ]
-  },
-  {
-    id: 17,
-    image: FertPos0,
+    id: 13,
+    image: FERTPOS,
     name: 'KI-FOLMAX 00-10-50',
     description: [
       `O fertilizante KI-FOLMAX 00-10-50 possui alta concentração de potássio. É um fertilizante de fácil manuseio por ser totalmente solúvel, o que torna a aplicação mais eficiente, poupando tempo nas pulverizações.`,
@@ -213,8 +168,8 @@ export const products: IProduct[] = [
     ]
   },
   {
-    id: 18,
-    image: FertPos0,
+    id: 14,
+    image: FERTPOS,
     name: 'KIFOL MICROS',
     description: [
       `O KIFOL MICROS é um fertilizante foliar com uma formulação balanceada.`,
@@ -223,5 +178,11 @@ export const products: IProduct[] = [
 
       `O resultado é uma melhora na frutificação, produtividade e qualidade dos frutos`
     ]
+  },
+  {
+    id: 15,
+    image: FERTPOS,
+    name: 'KIFOL 09-50-10',
+    description: ['']
   }
 ];
