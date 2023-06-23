@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
-import { background } from '../../images';
+import { BANNER } from '../../images';
 
 export const Container = styled.div`
   width: 100%;
   height: 500px;
-  background-image: url(${background});
+  background-image: url(${BANNER});
   overflow: hidden;
   background-position: center 0px;
   background-repeat: repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -63,7 +64,10 @@ export const Container = styled.div`
 
   @media screen and (max-width: 990px) {
     height: 300px;
+    background-size: 1000px 300px;
+
     .home-btn {
+      margin-bottom: 1rem;
       min-width: 250px;
       font-size: 0.8rem;
     }
