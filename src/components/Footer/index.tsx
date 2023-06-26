@@ -9,7 +9,8 @@ import {
   FooterText,
   LogoColumn,
   LogoFooter,
-  MapIcon
+  MapIcon,
+  TitleFooter
 } from './styles';
 import { logo } from '../../images';
 import ChatPopup from '../ChatPopup';
@@ -30,34 +31,45 @@ function Footer() {
             </Link>
           </LogoColumn>
         </FooterColumn>
+
         <FooterColumn>
-          <h4>Contato:</h4>
-          <Link to="tel:+5518997514067">
-            <FooterLink>
-              <FooterIcon className="bx bxs-phone" /> (18) 99723-0188
-            </FooterLink>
-          </Link>
-          <Link to={LINK_WHATSAPP} target="_blank">
-            <FooterLink>
-              <FooterIcon className="bx bxl-whatsapp" /> WhatsApp
-            </FooterLink>
-          </Link>
-          <Link to="mailto:kifol@kifol.com.br">
-            <FooterLink>
-              <FooterIcon className="bx bxs-envelope" /> kifol@kifol.com.br
-            </FooterLink>
-          </Link>
+          <TitleFooter>Contato:</TitleFooter>
+
+          <FooterLink href="tel:+5518997514067">
+            <FooterIcon className="bx bxs-phone" /> (18) 99723-0188
+          </FooterLink>
+
+          <FooterLink href={LINK_WHATSAPP} target="_blank">
+            <FooterIcon className="bx bxl-whatsapp" /> (18) 99751-4067
+          </FooterLink>
+
+          <FooterLink href="mailto:kifol@kifol.com.br">
+            <FooterIcon className="bx bxs-envelope" /> kifol@kifol.com.br
+          </FooterLink>
+
+          <FooterLink
+            href="https://www.instagram.com/kifol_fertilizantes"
+            target="_blank"
+            rel="noreferrer">
+            <FooterIcon className="bx bxl-instagram" /> Instagram
+          </FooterLink>
+
+          <FooterLink
+            href="https://www.facebook.com/kifol"
+            target="_blank"
+            rel="noreferrer">
+            <FooterIcon className="bx bxl-facebook-circle" /> Facebook
+          </FooterLink>
         </FooterColumn>
+
         <FooterColumn>
-          <h4>Localização:</h4>
-          <FooterText>
-            <MapIcon>
-              <FooterIcon className="bx bxs-map" />
-            </MapIcon>
-            Estrada para 7 copas, Km 02 Bairro União
-          </FooterText>
+          <TitleFooter>Localização:</TitleFooter>
+          <FooterText>Estrada para 7 copas, Km 02</FooterText>
+          <FooterText>Bairro União</FooterText>
           <FooterText>Presidente Prudente - SP</FooterText>
-          <FooterText>Caixa Postal 2311 CEP: 19030-972</FooterText>
+          <FooterText>CEP: 19065-000</FooterText>
+          <FooterText>Caixa Postal 2311 </FooterText>
+
           <FooterLink href={LOCATION} target="_blank">
             <MapIcon>
               <FooterIcon className="bx bxs-map" />
@@ -66,6 +78,7 @@ function Footer() {
           </FooterLink>
         </FooterColumn>
       </FooterContainer>
+
       <Copy className="mt-2">
         Kifol Fertilizantes &copy; - Todos os direitos reservados
       </Copy>

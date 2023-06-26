@@ -36,7 +36,7 @@ export const FooterColumn = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-height: 150px;
+  min-height: 180px;
   margin: 10px;
   position: relative;
 
@@ -47,10 +47,8 @@ export const FooterColumn = styled.div`
 `;
 
 export const LogoColumn = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 150px;
+  margin: auto auto;
+  align-self: center;
 `;
 
 export const FooterText = styled.p`
@@ -80,7 +78,6 @@ export const FooterIcon = styled.i`
 
 export const MapIcon = styled.i`
   font-size: 18px;
-  margin-right: 5px;
 `;
 
 export const Copy = styled.div`
@@ -93,5 +90,9 @@ export const Copy = styled.div`
 `;
 
 export const LogoFooter = styled.img`
-  width: 250px;
+  max-width: 250px;
+`;
+
+export const TitleFooter = styled.h4`
+  font-weight: 500;
 `;

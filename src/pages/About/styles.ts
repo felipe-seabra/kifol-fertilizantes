@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   margin-top: 4rem;
-  max-width: 500px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,14 +32,24 @@ export const Container = styled.div`
 
 export const LogoAbout = styled.img`
   max-width: 300px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 `;
 
 export const Title = styled.h5`
   color: ${(props) => props.theme.colors.title};
 `;
 
+export const IconsContainer = styled.div`
+  display: flex;
+`;
+
 export const Icon = styled.i`
   color: #00a859;
   font-size: 3rem;
+  transition: 0.5s;
+  margin: 0 0.5rem;
+
+  :hover {
+    color: ${(props) => props.theme.colors.secundary};
+  }
 `;

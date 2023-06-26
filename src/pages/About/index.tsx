@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import setPageTitle from '../../utils/setPageTitle';
 
-import { Container, Icon, LogoAbout, Title } from './styles';
+import { Container, Icon, IconsContainer, LogoAbout, Title } from './styles';
 import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
@@ -27,14 +28,14 @@ function About() {
         </span>
       </blockquote>
       <Title>Nos siga nas redes sociais:</Title>
-      <div>
-        <a href={URL_INSTAGRAM} target="_blank" rel="noreferrer">
+      <IconsContainer>
+        <Link to={URL_INSTAGRAM} target="_blank" rel="noreferrer">
           <Icon className="bx bxl-instagram" />
-        </a>
-        <a href={URL_FACEBOOK} target="_blank" rel="noreferrer">
+        </Link>
+        <Link to={URL_FACEBOOK} target="_blank" rel="noreferrer">
           <Icon className="bx bxl-facebook-circle" />
-        </a>
-      </div>
+        </Link>
+      </IconsContainer>
     </Container>
   );
 }
