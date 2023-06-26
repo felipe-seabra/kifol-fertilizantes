@@ -7,6 +7,7 @@ import {
   FooterIcon,
   FooterLink,
   FooterText,
+  LogoColumn,
   LogoFooter,
   MapIcon
 } from './styles';
@@ -23,7 +24,11 @@ function Footer() {
     <footer>
       <FooterContainer>
         <FooterColumn>
-          <LogoFooter src={logo} alt="Logo Kifol" />
+          <LogoColumn>
+            <Link to="/">
+              <LogoFooter src={logo} alt="Logo Kifol" />
+            </Link>
+          </LogoColumn>
         </FooterColumn>
         <FooterColumn>
           <h4>Contato:</h4>

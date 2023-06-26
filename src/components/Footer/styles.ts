@@ -46,6 +46,13 @@ export const FooterColumn = styled.div`
   }
 `;
 
+export const LogoColumn = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+`;
+
 export const FooterText = styled.p`
   font-size: 0.9rem;
   margin: 5px 0;
