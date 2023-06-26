@@ -186,7 +186,7 @@ export const products: IProduct[] = [
   {
     id: 15,
     image: ZERO91050,
-    name: 'KIFOL 09-50-10',
+    name: 'KI-FOLMAX 09-50-10',
     description: [
       'O fertilizante 09-50-10 possui alta concentração de fósforo, um nutriente importante para a fase de pré e pós florada nas plantas.'
     ]
