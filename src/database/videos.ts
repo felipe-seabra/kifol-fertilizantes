@@ -17,7 +17,7 @@ export const videosHome: IVideo[] = [
     id: 3,
     title: 'Joaquim Islei Da Silva',
     url: 'https://www.youtube.com/embed/lE-uyCcXcFA',
-    description: `Joaquim, um produtor de pimenta em MG, relata com entusiasmo o uso de longa data dos produtos da Kifol Fertilizantes. Ele destaca as diversas vantagens que experimentou ao utilizar esses produtos em suas plantações.`
+    description: `Joaquim, um produtor de Pimenta/MG, relata com entusiasmo o uso de longa data dos produtos da Kifol Fertilizantes. Ele destaca as diversas vantagens que experimentou ao utilizar esses produtos em suas plantações.`
   }
 ];
 
