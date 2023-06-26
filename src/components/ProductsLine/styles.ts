@@ -63,8 +63,8 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 990px) {
-    height: 300px;
-    background-size: 1000px 300px;
+    height: 250px;
+    background-size: 1000px auto;
 
     .home-btn {
       margin-bottom: 1rem;

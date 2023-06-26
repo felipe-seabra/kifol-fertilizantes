@@ -1,6 +1,9 @@
 import {
+  ZERO1050,
+  ZERO91050,
   AMINOFLOWER,
   BORO10,
+  CALCIO27,
   KIFOLMAX,
   CALIBRE,
   COBMOL,
@@ -9,6 +12,7 @@ import {
   FOSFITO,
   GREENFOL,
   ORGANICS,
+  STRIKE,
   TEKS,
   ZINFOL
 } from '../images';
@@ -139,7 +143,7 @@ export const products: IProduct[] = [
   },
   {
     id: 12,
-    image: FERTPOS,
+    image: STRIKE,
     name: 'STRIKE',
     description: [
       `O STRIKE é um fertilizante foliar com uma formulação balanceada, desenvolvida para suprir as deficiências de micronutrientes nas plantas.`,
@@ -153,10 +157,10 @@ export const products: IProduct[] = [
   },
   {
     id: 13,
-    image: FERTPOS,
+    image: ZERO1050,
     name: 'KI-FOLMAX 00-10-50',
     description: [
-      `O fertilizante KI-FOLMAX 00-10-50 possui alta concentração de potássio. É um fertilizante de fácil manuseio por ser totalmente solúvel, o que torna a aplicação mais eficiente, poupando tempo nas pulverizações.`,
+      `O fertilizante 00-10-50 possui alta concentração de potássio. É um fertilizante de fácil manuseio por ser totalmente solúvel, o que torna a aplicação mais eficiente, poupando tempo nas pulverizações.`,
 
       `É recomendado em plantas durante a fase de frutificação, pois a maioria das culturas necessita de mais potássio nesse período.`,
 
@@ -181,8 +185,22 @@ export const products: IProduct[] = [
   },
   {
     id: 15,
-    image: FERTPOS,
+    image: ZERO91050,
     name: 'KIFOL 09-50-10',
-    description: ['']
+    description: [
+      'O fertilizante 09-50-10 possui alta concentração de fósforo, um nutriente importante para a fase de pré e pós florada nas plantas.'
+    ]
+  },
+  {
+    id: 15,
+    image: CALCIO27,
+    name: 'CÁLCIO 27%',
+    description: [
+      `O KIFOL CÁLCIO 27% é um fertilizante foliar indicado para a prevenção e correção de deficiências nutricionais de Cálcio.`,
+
+      `Produto 100% solúvel em água. O KIFOL CÁLCIO 27% é um produto farelado com uma alta concentração de Cálcio, o que proporciona uma melhor absorção e aproveitamento do nutriente pelas plantas.`,
+
+      `O KIFOL CÁLCIO 27%, quando aplicado nas dosagens e épocas recomendadas auxilia na fecundação de flores, fixação dos botões florais e frutificação.`
+    ]
   }
 ];
