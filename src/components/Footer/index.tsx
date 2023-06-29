@@ -48,14 +48,14 @@ function Footer() {
           </FooterLink>
 
           <FooterLink
-            href="https://www.instagram.com/kifol_fertilizantes"
+            href="https://www.instagram.com/kifolfertilizante"
             target="_blank"
             rel="noreferrer">
             <FooterIcon className="bx bxl-instagram" /> Instagram
           </FooterLink>
 
           <FooterLink
-            href="https://www.facebook.com/kifol"
+            href="https://www.facebook.com/kifolfertilizante"
             target="_blank"
             rel="noreferrer">
             <FooterIcon className="bx bxl-facebook-circle" /> Facebook
