@@ -18,7 +18,7 @@ const NAV_LINKS = [
   { path: '/about', label: 'Quem Somos', iconClass: 'bx bx-user' },
   { path: '/products', label: 'Produtos', iconClass: 'bx bx-lemon' },
   // { path: '/news', label: 'Novidades', iconClass: 'bx bx-news' },
-  { path: '/depositions', label: 'Depoimentos', iconClass: 'bx bx-notepad' },
+  // { path: '/depositions', label: 'Depoimentos', iconClass: 'bx bx-notepad' },
   { path: '/contact', label: 'Contato', iconClass: 'bx bx-envelope' }
 ];
 
