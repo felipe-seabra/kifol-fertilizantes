@@ -16,6 +16,7 @@ import verifyBtn, {
 } from '../../utils/verifyBtn';
 import { IFormValues } from '../../interfaces';
 import phoneMask from '../../utils/phoneMask';
+import { URL_MAIL } from '../../database/social';
 
 const TEXT = `Valorizamos muito a sua opinião e queremos ouvir o que você tem a dizer. Por isso, reservamos este espaço especialmente para que você possa compartilhar seus comentários, sugestões e esclarecer quaisquer dúvidas que possa ter. Escreva para nós! É simples, rápido e teremos imenso prazer em responder.`;
 
@@ -158,7 +159,8 @@ function Form() {
         </p>
         <p>{TEXT}</p>
         <p>
-          <strong>E-mail: &nbsp; </strong>contato@kifol.com.br
+          <strong>E-mail: &nbsp; </strong>
+          {URL_MAIL}
         </p>
       </ContainerSpeak>
     </Container>

@@ -18,6 +18,8 @@ import {
   WhatsAppIcon
 } from './styles';
 
+import { URL_WHATSAPP } from '../../database/social';
+
 function ChatPopup() {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
@@ -32,7 +34,7 @@ function ChatPopup() {
 
   const handleSendMessage = () => {
     const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `https://api.whatsapp.com/send?phone=5518997514067&text=${encodedMessage}`;
+    const whatsappURL = `${URL_WHATSAPP}${encodedMessage}`;
 
     window.open(whatsappURL, '_blank');
 

@@ -15,10 +15,17 @@ import {
 import { logo } from '../../images';
 import ChatPopup from '../ChatPopup';
 
-const LOCATION = `https://www.google.com/maps/place/Kifol+Fertilizantes/@-22.1205939,-51.3899879,17z/data=!3m1!4b1!4m6!3m5!1s0x9493f57ecc8add7d:0xb426a735286ed776!8m2!3d-22.1205939!4d-51.3874076!16s%2Fg%2F11kq9hsd49?hl=pt-BR&entry=ttu`;
-
-const LINK_WHATSAPP =
-  'https://api.whatsapp.com/send?phone=5518997514067&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20produtos!';
+import {
+  URL_WHATSAPP_FORMATED,
+  URL_GOOGLE_MAPS,
+  URL_INSTAGRAM,
+  URL_FACEBOOK,
+  URL_MAIL,
+  URL_MAIL_FORMATED,
+  URL_WHATSAPP_NUMBER,
+  URL_PHONE,
+  URL_PHONE_FORMATED
+} from '../../database/social';
 
 function Footer() {
   return (
@@ -35,29 +42,23 @@ function Footer() {
         <FooterColumn>
           <TitleFooter>Contato:</TitleFooter>
 
-          <FooterLink href="tel:+5518997514067">
-            <FooterIcon className="bx bxs-phone" /> (18) 99723-0188
+          <FooterLink href={URL_PHONE_FORMATED}>
+            <FooterIcon className="bx bxs-phone" /> {URL_PHONE}
           </FooterLink>
 
-          <FooterLink href={LINK_WHATSAPP} target="_blank">
-            <FooterIcon className="bx bxl-whatsapp" /> (18) 99751-4067
+          <FooterLink href={URL_WHATSAPP_FORMATED} target="_blank">
+            <FooterIcon className="bx bxl-whatsapp" /> {URL_WHATSAPP_NUMBER}
           </FooterLink>
 
-          <FooterLink href="mailto:contato@kifol.com.br">
-            <FooterIcon className="bx bxs-envelope" /> contato@kifol.com.br
+          <FooterLink href={URL_MAIL_FORMATED}>
+            <FooterIcon className="bx bxs-envelope" /> {URL_MAIL}
           </FooterLink>
 
-          <FooterLink
-            href="https://www.instagram.com/kifolfertilizante"
-            target="_blank"
-            rel="noreferrer">
+          <FooterLink href={URL_INSTAGRAM} target="_blank" rel="noreferrer">
             <FooterIcon className="bx bxl-instagram" /> Instagram
           </FooterLink>
 
-          <FooterLink
-            href="https://www.facebook.com/kifolfertilizante"
-            target="_blank"
-            rel="noreferrer">
+          <FooterLink href={URL_FACEBOOK} target="_blank" rel="noreferrer">
             <FooterIcon className="bx bxl-facebook-circle" /> Facebook
           </FooterLink>
         </FooterColumn>
@@ -70,7 +71,7 @@ function Footer() {
           <FooterText>CEP: 19065-000</FooterText>
           <FooterText>Caixa Postal 2311 </FooterText>
 
-          <FooterLink href={LOCATION} target="_blank">
+          <FooterLink href={URL_GOOGLE_MAPS} target="_blank">
             <MapIcon>
               <FooterIcon className="bx bxs-map" />
             </MapIcon>

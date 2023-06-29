@@ -8,6 +8,7 @@ import { shade } from 'polished';
 
 import { logo } from '../../images';
 import { Container, Logo, Icon } from './styles';
+import { URL_WHATSAPP_FORMATED } from '../../database/social';
 
 interface Props {
   toggleTheme(): void;
@@ -19,7 +20,13 @@ const NAV_LINKS = [
   { path: '/products', label: 'Produtos', iconClass: 'bx bx-lemon' },
   // { path: '/news', label: 'Novidades', iconClass: 'bx bx-news' },
   // { path: '/depositions', label: 'Depoimentos', iconClass: 'bx bx-notepad' },
-  { path: '/contact', label: 'Contato', iconClass: 'bx bx-envelope' }
+  { path: '/contact', label: 'Contato', iconClass: 'bx bx-envelope' },
+  {
+    path: URL_WHATSAPP_FORMATED,
+    label: 'WhatsApp',
+    target: '_blank',
+    iconClass: 'bx bxl-whatsapp'
+  }
 ];
 
 function Header({ toggleTheme }: Props): JSX.Element {
@@ -58,6 +65,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
                   key={link.path}
                   as={Link}
                   to={link.path}
+                  target={link.target}
                   className="navlink"
                   onClick={handleClick}
                   active={activeLink === link.path}>

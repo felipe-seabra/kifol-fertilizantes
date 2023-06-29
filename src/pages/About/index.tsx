@@ -6,9 +6,7 @@ import { Container, Icon, IconsContainer, LogoAbout, Title } from './styles';
 import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
-
-const URL_INSTAGRAM = 'https://www.instagram.com/kifolfertilizante';
-const URL_FACEBOOK = 'https://www.facebook.com/kifolfertilizante';
+import { URL_FACEBOOK, URL_INSTAGRAM } from '../../database/social';
 
 function About() {
   useEffect(() => {
