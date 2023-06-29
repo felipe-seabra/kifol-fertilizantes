@@ -40,9 +40,9 @@ function Form() {
     emailjs
       .sendForm(
         'umbler',
-        'template_k6yrspb',
+        'template_tb43ujx',
         e.target as HTMLFormElement,
-        'pQs69XqnkBggTWGIR'
+        'V0hNDFS9XeiBB9u5g'
       )
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
@@ -57,7 +57,6 @@ function Form() {
   };
 
   const handleFormSubmitIsLoading = (e: FormEvent<HTMLFormElement>): void => {
-    console.log(e.target);
     setIsLoading(true);
     sendEmail(e);
   };
@@ -159,7 +158,7 @@ function Form() {
         </p>
         <p>{TEXT}</p>
         <p>
-          <strong>E-mail: &nbsp; </strong>kifol@kifol.com.br
+          <strong>E-mail: &nbsp; </strong>contato@kifol.com.br
         </p>
       </ContainerSpeak>
     </Container>
