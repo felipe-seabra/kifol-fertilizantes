@@ -7,7 +7,7 @@ import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
 
-const URL_INSTAGRAM = 'https://www.instagram.com/kifol_fertilizantes';
+const URL_INSTAGRAM = 'https://www.instagram.com/kifolfertilizante';
 const URL_FACEBOOK = 'https://www.facebook.com/kifolfertilizante';
 
 function About() {
