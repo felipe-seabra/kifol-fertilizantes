@@ -1,9 +1,15 @@
 import React from 'react';
-import { Container, VideosCard, VideosContainer, VideosTitle } from './styles';
+import {
+  Container,
+  VideosCard,
+  VideosContainer,
+  VideosTitle,
+  VideoImage
+} from './styles';
 import Separator from '../Separator';
 
 import { videosHome as videos } from '../../database/videos';
-import VideoCard from '../VideoCard';
+// import VideoCard from '../VideoCard';
 
 function LookTo() {
   return (
@@ -13,7 +19,8 @@ function LookTo() {
       <VideosContainer>
         {videos.map((video) => (
           <VideosCard>
-            <VideoCard id={video.id} url={video.url} title={video.title} />
+            {/* <VideoCard id={video.id} url={video.url} title={video.title} /> */}
+            <VideoImage src={video.url} alt={video.title} />
             <VideosTitle>{video.title}</VideosTitle>
             <p>{video.description}</p>
           </VideosCard>

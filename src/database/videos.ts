@@ -1,22 +1,24 @@
 import { IVideo } from '../interfaces';
 
+import { ditinho, zeze, joaquim } from '../images/depositions';
+
 export const videosHome: IVideo[] = [
   {
     id: 1,
     title: 'Ditinho',
-    url: 'https://www.youtube.com/embed/_lx_xeBEjik',
+    url: ditinho,
     description: `Ditinho, um produtor de morangos de Estiva/MG, compartilha em seu depoimento que o uso do produto Organics é essencial para aqueles que desejam alcançar uma maior produtividade em suas plantações.`
   },
   {
     id: 2,
     title: 'Zezé Machado',
-    url: 'https://www.youtube.com/embed/Jt3LQqzDrD4',
+    url: zeze,
     description: `No vídeo, Zezé Machado, renomado produtor da Região do Sul de Minas, relata sua experiência inicial com os produtos da Kifol Fertilizantes e os resultados obtidos a partir de seu uso.`
   },
   {
     id: 3,
     title: 'Joaquim Islei Da Silva',
-    url: 'https://www.youtube.com/embed/lE-uyCcXcFA',
+    url: joaquim,
     description: `Joaquim, um produtor de Pimenta/MG, relata com entusiasmo o uso de longa data dos produtos da Kifol Fertilizantes. Ele destaca as diversas vantagens que experimentou ao utilizar esses produtos em suas plantações.`
   }
 ];

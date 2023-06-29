@@ -33,6 +33,14 @@ export const VideosCard = styled.div`
   color: ${(props) => props.theme.colors.text};
 `;
 
+export const VideoImage = styled.img`
+  width: 300px;
+  height: 150px;
+  border: 5px solid ${({ theme }) => theme.colors.primary};
+  border-radius: 5px;
+  box-sizing: border-box;
+`;
+
 export const VideosTitle = styled.h4`
   font-size: 1.5rem;
   margin: 1rem 0;
