@@ -43,8 +43,8 @@ function Footer() {
             <FooterIcon className="bx bxl-whatsapp" /> (18) 99751-4067
           </FooterLink>
 
-          <FooterLink href="mailto:kifol@kifol.com.br">
-            <FooterIcon className="bx bxs-envelope" /> kifol@kifol.com.br
+          <FooterLink href="mailto:contato@kifol.com.br">
+            <FooterIcon className="bx bxs-envelope" /> contato@kifol.com.br
           </FooterLink>
 
           <FooterLink
