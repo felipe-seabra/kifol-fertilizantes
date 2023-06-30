@@ -34,7 +34,7 @@ function ChatPopup() {
 
   const handleSendMessage = () => {
     const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `${URL_WHATSAPP}${encodedMessage}`;
+    const whatsappURL = `${URL_WHATSAPP}text=${encodedMessage}`;
 
     window.open(whatsappURL, '_blank');
 
