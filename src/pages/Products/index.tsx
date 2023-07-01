@@ -1,15 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { BlurhashCanvas } from 'react-blurhash';
 import setPageTitle from '../../utils/setPageTitle';
 
 import {
   Container,
   TitleProducts,
   ContainerProducts,
-  ProductContainer,
-  ProductImage,
-  ProductTitle,
   InputSearchContainer,
   InputSearch,
   IconSearch
@@ -17,18 +12,14 @@ import {
 
 import { products } from '../../database/products';
 import Separator from '../../components/Separator';
+import CardProduct from '../../components/CardProduct';
 
 function Products() {
-  const [loaded, setLoaded] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     setPageTitle('Produtos - Kifol Fertilizantes');
   }, []);
-
-  const handleImageLoad = () => {
-    setLoaded(true);
-  };
 
   const sortedProducts = products.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -53,26 +44,7 @@ function Products() {
       <ContainerProducts>
         {!filterProducts().length && <p>Nenhum produto encontrado.</p>}
         {filterProducts().map((product) => (
-          <Link to={`/products/${product.id}`} key={product.id}>
-            <ProductContainer>
-              <ProductImage
-                src={product.image}
-                alt={product.name}
-                style={{ display: loaded ? 'inline-block' : 'none' }}
-                onLoad={handleImageLoad}
-              />
-              {!loaded && (
-                <BlurhashCanvas
-                  hash="LEHV6nWB2yk8pyo0adR*.7kCMdnj"
-                  className="product-img mb-5 img-fluid"
-                  width={200}
-                  height={200}
-                  punch={1}
-                />
-              )}
-              <ProductTitle>{product.name}</ProductTitle>
-            </ProductContainer>
-          </Link>
+          <CardProduct product={product} key={product.id} />
         ))}
       </ContainerProducts>
       <Separator />
