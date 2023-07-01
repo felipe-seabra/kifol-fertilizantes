@@ -6,7 +6,6 @@ import { IProduct } from '../../interfaces';
 
 type CardProductProps = {
   product: IProduct;
-  // key: number;
 };
 
 export default function CardProduct({ product: { id, image, name } }: CardProductProps) {

@@ -7,7 +7,8 @@ import {
   DescriptionContainer,
   ProductImage,
   ProductTitle,
-  ProductDescription
+  ProductDescription,
+  ContainerButtons
 } from './styles';
 
 import { products } from '../../database/products';
@@ -34,9 +35,14 @@ function ProductDetail() {
         {description?.map((paragraph) => (
           <ProductDescription>{paragraph}</ProductDescription>
         ))}
-        <Link className="product-btn" to="/contact">
-          Solicite um Orçamento
-        </Link>
+        <ContainerButtons>
+          <Link className="product-btn" to="/contact">
+            Solicite Um Orçamento
+          </Link>
+          <Link className="more-product-btn" to="/products">
+            Ver Outros Produtos
+          </Link>
+        </ContainerButtons>
       </DescriptionContainer>
     </Container>
   );
