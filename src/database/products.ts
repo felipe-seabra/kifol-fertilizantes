@@ -48,7 +48,7 @@ export const products: IProduct[] = [
   {
     id: 3,
     image: KIFOLMAX,
-    name: 'CÁLCIO-BORO',
+    name: 'CALCIO-BORO',
     description: [
       `O KIFOL KI-FOLMAX CÁLCIO-BORO é um fertilizante líquido que contém dois elementos fundamentais para o desenvolvimento das plantas e frutos.`,
 
@@ -194,7 +194,7 @@ export const products: IProduct[] = [
   {
     id: 16,
     image: CALCIO27,
-    name: 'CÁLCIO 27%',
+    name: 'CALCIO 27%',
     description: [
       `O KIFOL CÁLCIO 27% é um fertilizante foliar indicado para a prevenção e correção de deficiências nutricionais de Cálcio.`,
 
