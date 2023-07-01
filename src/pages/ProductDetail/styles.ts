@@ -41,7 +41,7 @@ export const Container = styled.div`
     left: 0;
     width: 0%;
     height: 100%;
-    background: ${(props) => props.theme.colors.primary};
+    background: ${(props) => props.theme.colors.secundary};
     z-index: -1;
     transition: 0.5s;
   }
@@ -86,7 +86,7 @@ export const Container = styled.div`
     left: 0;
     width: 0%;
     height: 100%;
-    background: ${(props) => props.theme.colors.secundary};
+    background: ${(props) => props.theme.colors.primary};
     z-index: -1;
     transition: 0.5s;
   }
