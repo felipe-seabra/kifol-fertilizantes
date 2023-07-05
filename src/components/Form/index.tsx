@@ -7,7 +7,8 @@ import {
   TitleForm,
   ContainerSpeak,
   SocialLinkContacts,
-  SocialIconContacts
+  SocialIconContacts,
+  SocialLinkContactsContainer
 } from './styles';
 import { AppContext } from '../../context/Provider';
 
@@ -22,7 +23,12 @@ import verifyBtn, {
 } from '../../utils/verifyBtn';
 import { IFormValues } from '../../interfaces';
 import phoneMask from '../../utils/phoneMask';
-import { URL_FACEBOOK, URL_INSTAGRAM, URL_MAIL } from '../../database/social';
+import {
+  URL_FACEBOOK,
+  URL_INSTAGRAM,
+  URL_MAIL,
+  URL_MAIL_FORMATED
+} from '../../database/social';
 
 const TEXT = `Valorizamos muito a sua opinião e queremos ouvir o que você tem a dizer. Por isso, reservamos este espaço especialmente para que você possa compartilhar seus comentários, sugestões e esclarecer quaisquer dúvidas que possa ter. Escreva para nós! É simples, rápido e teremos imenso prazer em responder.`;
 
@@ -182,20 +188,17 @@ function Form() {
           <strong>Envie seu e-mail para nós.</strong>
         </p>
         <p>{TEXT}</p>
-        <p>
-          <strong>E-mail: &nbsp; </strong>
-          {URL_MAIL}
-        </p>
-        <p>
+        <SocialLinkContactsContainer>
+          <SocialLinkContacts href={URL_MAIL_FORMATED}>
+            <SocialIconContacts className="bx bxs-envelope" /> {URL_MAIL}
+          </SocialLinkContacts>
           <SocialLinkContacts href={URL_INSTAGRAM} target="_blank" rel="noreferrer">
             <SocialIconContacts className="bx bxl-instagram" /> Instagram
           </SocialLinkContacts>
-        </p>
-        <p>
           <SocialLinkContacts href={URL_FACEBOOK} target="_blank" rel="noreferrer">
             <SocialIconContacts className="bx bxl-facebook-circle" /> Facebook
           </SocialLinkContacts>
-        </p>
+        </SocialLinkContactsContainer>
       </ContainerSpeak>
     </Container>
   );
