@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import setPageTitle from '../../utils/setPageTitle';
 
-import { Container, Icon, IconsContainer, LogoAbout, Title } from './styles';
+import { Container, Icon, IconsContainer, LogoAbout, TextAbout, Title } from './styles';
 import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
@@ -17,7 +17,7 @@ function About() {
     <Container>
       <LogoAbout src={logo} />
       {TEXTS.map((text) => (
-        <p>{text}</p>
+        <TextAbout>{text}</TextAbout>
       ))}
       <blockquote>
         <span>

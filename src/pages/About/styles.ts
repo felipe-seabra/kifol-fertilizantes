@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   margin-top: 4rem;
-  max-width: 600px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +28,11 @@ export const Container = styled.div`
   @media screen and (max-width: 990px) {
     width: 90%;
   }
+`;
+
+export const TextAbout = styled.p`
+  color: ${(props) => props.theme.colors.text};
+  font-size: 1rem;
 `;
 
 export const LogoAbout = styled.img`
