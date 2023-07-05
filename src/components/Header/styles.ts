@@ -1,11 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: relative;
   width: 100%;
   padding-left: 30px;
   text-align: right;
   padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '2em' : '30px'};
-  border-top: 30px solid ${(props) => props.theme.colors.primary};
+  border-top: 25px solid ${(props) => props.theme.colors.primary};
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   z-index: 999;
 
   .header__links {
