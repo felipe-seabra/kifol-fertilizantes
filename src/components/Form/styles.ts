@@ -48,3 +48,22 @@ export const ContainerSpeak = styled.div`
     margin-left: 0;
   }
 `;
+
+export const SocialLinkContacts = styled.a`
+  text-decoration: none;
+  color: ${(prop) => prop.theme.colors.secundary};
+  font-size: 1rem;
+  display: flex;
+  align-items: end;
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    color: ${(prop) => prop.theme.colors.primary};
+    opacity: 0.8;
+  }
+`;
+
+export const SocialIconContacts = styled.i`
+  font-size: 2rem;
+  margin-right: 0.4rem;
+`;

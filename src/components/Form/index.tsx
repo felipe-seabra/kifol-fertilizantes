@@ -2,7 +2,13 @@
 import React, { useState, useContext, FormEvent } from 'react';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import { Form as BootstrapForm, Button, FloatingLabel } from 'react-bootstrap';
-import { Container, TitleForm, ContainerSpeak } from './styles';
+import {
+  Container,
+  TitleForm,
+  ContainerSpeak,
+  SocialLinkContacts,
+  SocialIconContacts
+} from './styles';
 import { AppContext } from '../../context/Provider';
 
 import RequiredField from '../../helpers/RequiredField';
@@ -16,7 +22,7 @@ import verifyBtn, {
 } from '../../utils/verifyBtn';
 import { IFormValues } from '../../interfaces';
 import phoneMask from '../../utils/phoneMask';
-import { URL_MAIL } from '../../database/social';
+import { URL_FACEBOOK, URL_INSTAGRAM, URL_MAIL } from '../../database/social';
 
 const TEXT = `Valorizamos muito a sua opinião e queremos ouvir o que você tem a dizer. Por isso, reservamos este espaço especialmente para que você possa compartilhar seus comentários, sugestões e esclarecer quaisquer dúvidas que possa ter. Escreva para nós! É simples, rápido e teremos imenso prazer em responder.`;
 
@@ -179,6 +185,16 @@ function Form() {
         <p>
           <strong>E-mail: &nbsp; </strong>
           {URL_MAIL}
+        </p>
+        <p>
+          <SocialLinkContacts href={URL_INSTAGRAM} target="_blank" rel="noreferrer">
+            <SocialIconContacts className="bx bxl-instagram" /> Instagram
+          </SocialLinkContacts>
+        </p>
+        <p>
+          <SocialLinkContacts href={URL_FACEBOOK} target="_blank" rel="noreferrer">
+            <SocialIconContacts className="bx bxl-facebook-circle" /> Facebook
+          </SocialLinkContacts>
         </p>
       </ContainerSpeak>
     </Container>
