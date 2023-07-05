@@ -11,7 +11,7 @@ import Separator from '../Separator';
 import { videosHome as videos } from '../../database/videos';
 // import VideoCard from '../VideoCard';
 
-function LookTo() {
+function DepositionsCard() {
   return (
     <Container>
       <Separator />
@@ -30,4 +30,4 @@ function LookTo() {
   );
 }
 
-export default LookTo;
+export default DepositionsCard;

@@ -69,10 +69,13 @@ function Form() {
         <BootstrapForm className="form" onSubmit={handleFormSubmitIsLoading}>
           <>
             {/* input all name */}
-            <RequiredField isValid={verifyFieldName(formValues.name)} />
+            <RequiredField
+              isValid={verifyFieldName(formValues.name)}
+              text="Precisamos do seu nome completo!"
+            />
             <FloatingLabel
               controlId="floatingInput"
-              label="Nome completo."
+              label="Nome completo"
               className="mb-3">
               <BootstrapForm.Control
                 type="text"
@@ -85,8 +88,11 @@ function Form() {
               />
             </FloatingLabel>
             {/* input email */}
-            <RequiredField isValid={verifyFieldEmail(formValues.email)} />
-            <FloatingLabel controlId="floatingInput" label="E-mail." className="mb-3">
+            <RequiredField
+              isValid={verifyFieldEmail(formValues.email)}
+              text="Digite um e-mail válido!"
+            />
+            <FloatingLabel controlId="floatingInput" label="E-mail:" className="mb-3">
               <BootstrapForm.Control
                 type="email"
                 placeholder="name@example.com"
@@ -97,8 +103,14 @@ function Form() {
               />
             </FloatingLabel>
             {/* input phone */}
-            <RequiredField isValid={verifyFieldPhone(formValues.phone)} />
-            <FloatingLabel controlId="floatingInput" label="Telefone." className="mb-3">
+            <RequiredField
+              isValid={verifyFieldPhone(formValues.phone)}
+              text="Insira seu telefone para contato!"
+            />
+            <FloatingLabel
+              controlId="floatingInput"
+              label="Telefone: (99) 9999-9999"
+              className="mb-3">
               <BootstrapForm.Control
                 type="tel"
                 placeholder="(xx)xxxxx-xxxx"
@@ -111,10 +123,13 @@ function Form() {
               />
             </FloatingLabel>
             {/* input message */}
-            <RequiredField isValid={verifyFieldMessage(formValues.message)} />
+            <RequiredField
+              isValid={verifyFieldMessage(formValues.message)}
+              text="Insira uma mensagem!"
+            />
             <FloatingLabel
               controlId="floatingTextarea2"
-              label="Deixe sua mensagem aqui."
+              label="Deixe sua mensagem aqui"
               className="mb-3">
               <BootstrapForm.Control
                 as="textarea"
@@ -130,7 +145,10 @@ function Form() {
             </FloatingLabel>
           </>
           {/* input checkbox */}
-          <RequiredField isValid={verifyFieldCheckbox(formValues.checkbox)} />
+          <RequiredField
+            isValid={verifyFieldCheckbox(formValues.checkbox)}
+            text="Você precisa aceitar para enviar!"
+          />
           <BootstrapForm.Check
             label="Aceito enviar meus dados."
             className="mb-3"
