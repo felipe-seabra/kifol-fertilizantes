@@ -81,6 +81,7 @@ export default createGlobalStyle`
   /* Estilizando o rastro da barra de rolagem */
   ::-webkit-scrollbar-track {
     background: ${(props) => props.theme.colors.background};
+    border: 1px solid rgba(204, 204, 204, 0.5);
   }
 
   /* Estilizando o "polegar" da barra de rolagem */
