@@ -4,7 +4,7 @@ import setPageTitle from '../../utils/setPageTitle';
 import { Container } from './styles';
 
 import About from '../../components/About';
-import ProductsLine from '../../components/ProductsLine';
+import Banner from '../../components/Banner';
 import LookTo from '../../components/LookTo';
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
 
   return (
     <Container>
-      <ProductsLine />
+      <Banner />
       <About />
       <LookTo />
     </Container>

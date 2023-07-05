@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-import { BANNER } from '../../images';
+import { BANNER2 } from '../../images';
 
 export const Container = styled.div`
   width: 100%;
   height: 500px;
-  background-image: url(${BANNER});
+  background-image: url(${BANNER2});
   overflow: hidden;
   background-position: center 0px;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -16,9 +16,8 @@ export const Container = styled.div`
   align-items: center;
 
   .home-btn {
-    // margin-top: 4rem;
     bottom: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -62,14 +61,29 @@ export const Container = styled.div`
     transition: 0.5s;
   }
 
+  @media screen and (max-width: 1160px) {
+    background-position: -350px 0px;
+  }
+
   @media screen and (max-width: 990px) {
     height: 250px;
     background-size: 1000px auto;
+    background-position: center 0px;
 
     .home-btn {
-      margin-bottom: 1rem;
-      min-width: 250px;
-      font-size: 0.8rem;
+      margin-bottom: 0.1rem;
+      min-width: 230px;
+      min-height: 40px;
+      font-size: 0.7rem;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    background-size: 900px auto;
+    background-position: -180px 0px;
+
+    .home-btn {
+      margin-bottom: 1.2rem;
     }
   }
 `;

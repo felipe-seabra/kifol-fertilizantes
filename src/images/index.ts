@@ -2,6 +2,7 @@ export { default as logo } from './logo.webp';
 export { default as logoK } from './logo-k.webp';
 
 export { default as BANNER } from './BANNER.webp';
+export { default as BANNER2 } from './BANNER_2.webp';
 
 export { default as logoSeparate } from './separator.webp';
 
