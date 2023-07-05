@@ -55,7 +55,7 @@ export const SocialLinkContacts = styled.a`
   font-size: 1rem;
   display: flex;
   align-items: end;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   transition: opacity 0.2s ease-in-out;
 
   &:hover {
@@ -65,7 +65,7 @@ export const SocialLinkContacts = styled.a`
 `;
 
 export const SocialIconContacts = styled.i`
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-right: 0.4rem;
 `;
 
