@@ -5,7 +5,7 @@ export const Container = styled.div`
   padding-left: 30px;
   text-align: right;
   padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '2em' : '30px'};
-  border-top: 30px solid ${(props) => props.theme.colors.primary}};
+  border-top: 30px solid ${(props) => props.theme.colors.primary};
   z-index: 999;
 
   .header__links {
@@ -60,16 +60,15 @@ export const Container = styled.div`
   }
 
   .navbar-toggler {
-    background: ${(props) => props.theme.colors.secundary};
-    opacity: 0.5;
+    border: none;
+    opacity: 1;
     transition: 0.4s;
     margin-right: 30px;
   }
-  
+
   .navbar-toggler:hover {
-    opacity: 1;
+    opacity: 0.5;
   }
-}
 `;
 
 export const Logo = styled.img`
