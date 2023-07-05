@@ -14,7 +14,7 @@ export const Container = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '0' : '2em'};
+    padding-right: ${window.matchMedia('(max-width: 992px)').matches ? '0' : '2em'};
     font-size: 1em;
   }
 
@@ -65,11 +65,18 @@ export const Container = styled.div`
     border: none;
     opacity: 1;
     transition: 0.4s;
-    margin-right: 30px;
+    border: solid ${(props) => props.theme.colors.primary};
   }
 
   .navbar-toggler:hover {
     opacity: 0.5;
+  }
+
+  @media screen and (max-width: 991px) {
+    .navlink,
+    .switch {
+      margin-top: 0.5rem;
+    }
   }
 `;
 

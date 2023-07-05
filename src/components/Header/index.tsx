@@ -40,9 +40,16 @@ function Header({ toggleTheme }: Props): JSX.Element {
   }, [location]);
 
   const handleClick = () => {
-    if (window.matchMedia('(max-width: 768px)').matches) {
+    if (window.matchMedia('(max-width: 991px)').matches) {
       setOpen(!open);
     }
+  };
+
+  const clasNameLinks = () => {
+    if (window.matchMedia('(max-width: 991px)').matches) {
+      return 'header__links';
+    }
+    return 'container header__links';
   };
 
   return (
@@ -59,7 +66,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
             onClick={() => setOpen(!open)}
           />
           <Navbar.Collapse in={open} id="responsive-navbar-nav">
-            <Nav className="container header__links">
+            <Nav className={clasNameLinks()}>
               {NAV_LINKS.map((link) => (
                 <Nav.Link
                   key={link.path}
@@ -75,6 +82,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
               ))}
             </Nav>
             <Switch
+              className="switch"
               onChange={toggleTheme}
               checked={title === 'dark'}
               checkedIcon={false}
