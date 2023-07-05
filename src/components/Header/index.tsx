@@ -16,11 +16,11 @@ interface Props {
 
 const NAV_LINKS = [
   { path: '/', label: 'Home', iconClass: 'bx bx-home' },
-  { path: '/about', label: 'Quem Somos', iconClass: 'bx bx-user' },
-  { path: '/products', label: 'Produtos', iconClass: 'bx bx-lemon' },
-  // { path: '/news', label: 'Novidades', iconClass: 'bx bx-news' },
-  // { path: '/depositions', label: 'Depoimentos', iconClass: 'bx bx-notepad' },
-  { path: '/contact', label: 'Contato', iconClass: 'bx bx-envelope' },
+  { path: '/sobre', label: 'Quem Somos', iconClass: 'bx bx-user' },
+  { path: '/produtos', label: 'Produtos', iconClass: 'bx bx-lemon' },
+  // { path: '/novidades', label: 'Novidades', iconClass: 'bx bx-news' },
+  // { path: '/depoimentos', label: 'Depoimentos', iconClass: 'bx bx-notepad' },
+  { path: '/contato', label: 'Contato', iconClass: 'bx bx-envelope' },
   {
     path: URL_WHATSAPP_FORMATED,
     label: 'WhatsApp',

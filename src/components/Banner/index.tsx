@@ -9,7 +9,7 @@ export default function ProductsLine() {
     <Container>
       {/* <ProductsImage src={ALLPRODUCTS} /> */}
       {/* <Slogan>A NUTRIÇÃO QUE FAZ A DIFERENÇA!</Slogan> */}
-      <Link className="home-btn" to="/products">
+      <Link className="home-btn" to="/produtos">
         Conheça Nossos Produtos
       </Link>
     </Container>

@@ -20,7 +20,7 @@ function Contact() {
   } else if (!submitForm) {
     content = <Form />;
   } else if (!errorSubmitForm) {
-    content = <Navigate to="/thanks" />;
+    content = <Navigate to="/obrigado" />;
   } else {
     content = <Navigate to="/error" />;
   }

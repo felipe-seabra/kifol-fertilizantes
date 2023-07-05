@@ -6,7 +6,7 @@ import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
 
-function About() {
+function AboutCard() {
   return (
     <Container>
       <LogoAbout src={logo} alt="" />
@@ -14,7 +14,7 @@ function About() {
         {TEXTS.slice(0, 2).map((paragraph) => (
           <p>{paragraph}</p>
         ))}
-        <Link className="home-btn" to="/about">
+        <Link className="home-btn" to="/sobre">
           Saiba Mais
         </Link>
       </TextContainer>
@@ -22,4 +22,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutCard;

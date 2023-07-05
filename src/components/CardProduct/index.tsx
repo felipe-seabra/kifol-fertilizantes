@@ -16,7 +16,7 @@ export default function CardProduct({ product: { id, image, name } }: CardProduc
   };
 
   return (
-    <Link to={`/products/${id}`}>
+    <Link to={`/produtos/${id}`}>
       <ProductContainer>
         <ProductImage
           src={image}

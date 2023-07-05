@@ -36,10 +36,10 @@ function ProductDetail() {
           <ProductDescription>{paragraph}</ProductDescription>
         ))}
         <ContainerButtons>
-          <Link className="product-btn" to="/contact">
+          <Link className="product-btn" to="/contato">
             Solicite Um Orçamento
           </Link>
-          <Link className="more-product-btn" to="/products">
+          <Link className="more-product-btn" to="/produtos">
             Ver Outros Produtos
           </Link>
         </ContainerButtons>

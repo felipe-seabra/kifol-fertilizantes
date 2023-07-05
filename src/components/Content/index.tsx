@@ -14,12 +14,12 @@ function Content() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/products/:id" element={<ProductDetail />} />
-      <Route path="/products" element={<Products />} />
-      <Route path="/depositions" element={<Depositions />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/thanks" element={<Thanks />} />
+      <Route path="/sobre" element={<About />} />
+      <Route path="/produtos/:id" element={<ProductDetail />} />
+      <Route path="/produtos" element={<Products />} />
+      <Route path="/depoimentos" element={<Depositions />} />
+      <Route path="/contato" element={<Contact />} />
+      <Route path="/obrigado" element={<Thanks />} />
       <Route path="/error" element={<Sorry />} />
       <Route path="*" element={<Error />} />
     </Routes>
