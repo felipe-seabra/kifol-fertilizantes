@@ -2,6 +2,8 @@ import { IVideo } from '../interfaces';
 
 import { ditinho, zeze, joaquim } from '../images/depositions';
 
+export const vimeoId = '842633287';
+
 export const videosHome: IVideo[] = [
   {
     id: 1,

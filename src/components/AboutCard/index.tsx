@@ -1,22 +1,27 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-import { Container, LogoAbout, TextContainer } from './styles';
+import { Container, ContainerLinkBtn, LogoAbout, TextContainer } from './styles';
 import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
+import { vimeoId } from '../../database/videos';
+import VimeoVideo from '../Video';
 
 function AboutCard() {
   return (
     <Container>
       <LogoAbout src={logo} alt="" />
       <TextContainer>
-        {TEXTS.slice(0, 2).map((paragraph) => (
-          <p>{paragraph}</p>
+        {TEXTS.slice(0, 1).map((paragraph) => (
+          <p dangerouslySetInnerHTML={{ __html: paragraph }} />
         ))}
-        <Link className="home-btn" to="/sobre">
-          Saiba Mais
-        </Link>
+        <VimeoVideo videoId={vimeoId} />
+        <ContainerLinkBtn>
+          <Link className="home-btn" to="/sobre">
+            Saiba Mais
+          </Link>
+        </ContainerLinkBtn>
       </TextContainer>
     </Container>
   );

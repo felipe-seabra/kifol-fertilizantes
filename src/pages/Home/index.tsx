@@ -6,7 +6,6 @@ import { Container } from './styles';
 import AboutCard from '../../components/AboutCard';
 import Banner from '../../components/Banner';
 import DepositionsCard from '../../components/DepositionsCard';
-import VimeoVideo from '../../components/Video';
 
 function Home() {
   useEffect(() => {
@@ -17,7 +16,6 @@ function Home() {
     <Container>
       <Banner />
       <AboutCard />
-      <VimeoVideo videoId="842633287" />
       <DepositionsCard />
     </Container>
   );

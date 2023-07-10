@@ -57,6 +57,8 @@ export const Container = styled.div`
 export const TextContainer = styled.div`
   width: 590px;
   margin-top: 2rem;
+  font-size: 1rem;
+  text-align: justify;
 
   @media screen and (max-width: 990px) {
     display: flex;
@@ -74,4 +76,9 @@ export const LogoAbout = styled.img`
   @media screen and (max-width: 990px) {
     display: none;
   }
+`;
+
+export const ContainerLinkBtn = styled.div`
+  display: flex;
+  justify-content: center;
 `;

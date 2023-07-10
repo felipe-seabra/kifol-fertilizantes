@@ -7,6 +7,9 @@ import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
 import { URL_FACEBOOK, URL_INSTAGRAM } from '../../database/social';
+import { vimeoId } from '../../database/videos';
+
+import VimeoVideo from '../../components/Video';
 
 function About() {
   useEffect(() => {
@@ -17,8 +20,9 @@ function About() {
     <Container>
       <LogoAbout src={logo} />
       {TEXTS.map((text) => (
-        <TextAbout>{text}</TextAbout>
+        <TextAbout dangerouslySetInnerHTML={{ __html: text }} />
       ))}
+      <VimeoVideo videoId={vimeoId} />
       <blockquote>
         <span>
           &quot; Contando com uma equipe altamente capacitada, a KIFOL atualmente
