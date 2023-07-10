@@ -3,12 +3,17 @@ import { Link, useLocation } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Switch from 'react-switch';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { ThemeContext } from 'styled-components';
 import { shade } from 'polished';
 
 import { logo } from '../../images';
 import { Container, Logo, Icon } from './styles';
-import { URL_WHATSAPP_FORMATED } from '../../database/social';
+import {
+  URL_WHATSAPP_FORMATED,
+  URL_INSTAGRAM,
+  URL_FACEBOOK
+} from '../../database/social';
 
 interface Props {
   toggleTheme(): void;
@@ -26,6 +31,21 @@ const NAV_LINKS = [
     label: 'WhatsApp',
     target: '_blank',
     iconClass: 'bx bxl-whatsapp'
+  }
+];
+
+const DROPDOWN_LINKS = [
+  {
+    path: URL_INSTAGRAM,
+    label: 'Instagram',
+    target: '_blank',
+    iconClass: 'bx bxl-instagram'
+  },
+  {
+    path: URL_FACEBOOK,
+    label: 'Facebook',
+    target: '_blank',
+    iconClass: 'bx bxl-facebook'
   }
 ];
 
@@ -80,6 +100,21 @@ function Header({ toggleTheme }: Props): JSX.Element {
                   {link.label}
                 </Nav.Link>
               ))}
+
+              <NavDropdown className="navlink" title="Redes Sociais" id="dropdown-menu">
+                {DROPDOWN_LINKS.map((link) => (
+                  <NavDropdown.Item
+                    key={link.path}
+                    as={Link}
+                    to={link.path}
+                    target={link.target}
+                    className=""
+                    onClick={handleClick}>
+                    <Icon className={link.iconClass} />
+                    {link.label}
+                  </NavDropdown.Item>
+                ))}
+              </NavDropdown>
             </Nav>
             <Switch
               className="switch"

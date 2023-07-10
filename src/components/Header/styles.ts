@@ -72,6 +72,18 @@ export const Container = styled.div`
     opacity: 0.5;
   }
 
+  #dropdown-menu {
+    color: ${(props) => props.theme.colors.primary};
+  }
+
+  .dropdown-item {
+    color: ${(props) => props.theme.colors.primary};
+  }
+
+  .dropdown-item:hover {
+    color: ${(props) => props.theme.colors.secundary};
+  }
+
   @media screen and (max-width: 991px) {
     .navlink,
     .switch {
