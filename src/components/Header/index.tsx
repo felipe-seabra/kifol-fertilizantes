@@ -108,7 +108,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
                     as={Link}
                     to={link.path}
                     target={link.target}
-                    className=""
+                    className="dropdown-item"
                     onClick={handleClick}>
                     <Icon className={link.iconClass} />
                     {link.label}
