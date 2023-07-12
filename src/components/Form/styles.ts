@@ -26,8 +26,8 @@ export const Container = styled.div`
     margin-top: 0.5rem;
   }
 
-  checkbox {
-    color: ${(prop) => prop.theme.colors.text};
+  .form-check-label {
+    margin-top: 0.3rem;
   }
 `;
 

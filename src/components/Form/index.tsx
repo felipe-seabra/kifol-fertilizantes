@@ -162,7 +162,7 @@ function Form() {
             text="Você precisa aceitar para enviar!"
           />
           <BootstrapForm.Check
-            label="Aceito enviar meus dados."
+            label="Aceito enviar meus dados"
             className="mb-3"
             type="checkbox"
             readOnly={formValues.checkbox}
