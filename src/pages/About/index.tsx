@@ -6,7 +6,7 @@ import { Container, Icon, IconsContainer, LogoAbout, TextAbout, Title } from './
 import { logo } from '../../images';
 
 import { TEXTS } from '../../database/texts';
-import { URL_FACEBOOK, URL_INSTAGRAM } from '../../database/social';
+import { URL_FACEBOOK, URL_INSTAGRAM, URL_LINKEDIN } from '../../database/social';
 import { vimeoId } from '../../database/videos';
 
 import VimeoVideo from '../../components/Video';
@@ -36,6 +36,9 @@ function About() {
         </Link>
         <Link to={URL_FACEBOOK} target="_blank" rel="noreferrer">
           <Icon className="bx bxl-facebook-circle" />
+        </Link>
+        <Link to={URL_LINKEDIN} target="_blank" rel="noreferrer">
+          <Icon className="bx bxl-linkedin" />
         </Link>
       </IconsContainer>
     </Container>
