@@ -24,7 +24,8 @@ import {
   URL_MAIL_FORMATED,
   URL_WHATSAPP_NUMBER,
   URL_PHONE,
-  URL_PHONE_FORMATED
+  URL_PHONE_FORMATED,
+  URL_LINKEDIN
 } from '../../database/social';
 
 function Footer() {
@@ -60,6 +61,10 @@ function Footer() {
 
           <FooterLink href={URL_FACEBOOK} target="_blank" rel="noreferrer">
             <FooterIcon className="bx bxl-facebook-circle" /> Facebook
+          </FooterLink>
+
+          <FooterLink href={URL_LINKEDIN} target="_blank" rel="noreferrer">
+            <FooterIcon className="bx bxl-linkedin" /> Linkedin
           </FooterLink>
         </FooterColumn>
 
