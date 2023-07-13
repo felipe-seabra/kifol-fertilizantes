@@ -12,7 +12,8 @@ import { Container, Logo, Icon } from './styles';
 import {
   URL_WHATSAPP_FORMATED,
   URL_INSTAGRAM,
-  URL_FACEBOOK
+  URL_FACEBOOK,
+  URL_LINKEDIN
 } from '../../database/social';
 
 interface Props {
@@ -46,6 +47,12 @@ const DROPDOWN_LINKS = [
     label: 'Facebook',
     target: '_blank',
     iconClass: 'bx bxl-facebook'
+  },
+  {
+    path: URL_LINKEDIN,
+    label: 'Linkedin',
+    target: '_blank',
+    iconClass: 'bx bxl-linkedin'
   }
 ];
 
