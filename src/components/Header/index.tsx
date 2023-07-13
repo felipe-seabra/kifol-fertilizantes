@@ -46,7 +46,7 @@ const DROPDOWN_LINKS = [
     path: URL_FACEBOOK,
     label: 'Facebook',
     target: '_blank',
-    iconClass: 'bx bxl-facebook'
+    iconClass: 'bx bxl-facebook-circle'
   },
   {
     path: URL_LINKEDIN,
