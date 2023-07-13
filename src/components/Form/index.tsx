@@ -26,7 +26,7 @@ import phoneMask from '../../utils/phoneMask';
 import {
   URL_FACEBOOK,
   URL_INSTAGRAM,
-  URL_MAIL,
+  URL_LINKEDIN,
   URL_MAIL_FORMATED
 } from '../../database/social';
 
@@ -162,7 +162,7 @@ function Form() {
             text="Você precisa aceitar para enviar!"
           />
           <BootstrapForm.Check
-            label="Aceito enviar meus dados."
+            label="Aceito enviar meus dados"
             className="mb-3"
             type="checkbox"
             readOnly={formValues.checkbox}
@@ -190,13 +190,16 @@ function Form() {
         <p>{TEXT}</p>
         <SocialLinkContactsContainer>
           <SocialLinkContacts href={URL_MAIL_FORMATED}>
-            <SocialIconContacts className="bx bxs-envelope" /> {URL_MAIL}
+            <SocialIconContacts className="bx bxs-envelope" /> E-mail
           </SocialLinkContacts>
           <SocialLinkContacts href={URL_INSTAGRAM} target="_blank" rel="noreferrer">
             <SocialIconContacts className="bx bxl-instagram" /> Instagram
           </SocialLinkContacts>
           <SocialLinkContacts href={URL_FACEBOOK} target="_blank" rel="noreferrer">
             <SocialIconContacts className="bx bxl-facebook-circle" /> Facebook
+          </SocialLinkContacts>
+          <SocialLinkContacts href={URL_LINKEDIN} target="_blank" rel="noreferrer">
+            <SocialIconContacts className="bx bxl-linkedin" /> Linkedin
           </SocialLinkContacts>
         </SocialLinkContactsContainer>
       </ContainerSpeak>

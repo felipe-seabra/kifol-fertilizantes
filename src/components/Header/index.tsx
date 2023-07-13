@@ -12,7 +12,8 @@ import { Container, Logo, Icon } from './styles';
 import {
   URL_WHATSAPP_FORMATED,
   URL_INSTAGRAM,
-  URL_FACEBOOK
+  URL_FACEBOOK,
+  URL_LINKEDIN
 } from '../../database/social';
 
 interface Props {
@@ -45,7 +46,13 @@ const DROPDOWN_LINKS = [
     path: URL_FACEBOOK,
     label: 'Facebook',
     target: '_blank',
-    iconClass: 'bx bxl-facebook'
+    iconClass: 'bx bxl-facebook-circle'
+  },
+  {
+    path: URL_LINKEDIN,
+    label: 'Linkedin',
+    target: '_blank',
+    iconClass: 'bx bxl-linkedin'
   }
 ];
 
@@ -122,10 +129,12 @@ function Header({ toggleTheme }: Props): JSX.Element {
               checked={title === 'dark'}
               checkedIcon={false}
               uncheckedIcon={false}
+              uncheckedHandleIcon={<div className="emoji">🌚</div>}
+              checkedHandleIcon={<div className="emoji">🌞</div>}
               height={10}
               width={40}
               handleDiameter={20}
-              offColor={shade(0.15, colors.primary)}
+              offColor={shade(0.15, colors.secundary)}
               onColor={colors.secundary}
             />
           </Navbar.Collapse>

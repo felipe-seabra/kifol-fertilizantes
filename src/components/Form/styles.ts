@@ -26,8 +26,8 @@ export const Container = styled.div`
     margin-top: 0.5rem;
   }
 
-  checkbox {
-    color: ${(prop) => prop.theme.colors.text};
+  .form-check-label {
+    margin-top: 0.3rem;
   }
 `;
 
@@ -54,7 +54,6 @@ export const SocialLinkContacts = styled.a`
   color: ${(prop) => prop.theme.colors.secundary};
   font-size: 1rem;
   display: flex;
-  align-items: end;
   margin-top: 0.7rem;
   transition: opacity 0.2s ease-in-out;
 

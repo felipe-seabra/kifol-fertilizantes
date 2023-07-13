@@ -65,7 +65,7 @@ export const Container = styled.div`
     border: none;
     opacity: 1;
     transition: 0.4s;
-    border: solid ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.primary};
   }
 
   .navbar-toggler:hover {
@@ -82,6 +82,13 @@ export const Container = styled.div`
 
   .dropdown-item:hover {
     color: ${(props) => props.theme.colors.secundary};
+  }
+
+  .emoji {
+    display: flex;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
   }
 
   @media screen and (max-width: 991px) {

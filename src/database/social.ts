@@ -1,5 +1,6 @@
 export const URL_FACEBOOK = 'https://www.facebook.com/kifolfertilizante';
 export const URL_INSTAGRAM = 'https://www.instagram.com/kifolfertilizante';
+export const URL_LINKEDIN = 'https://www.linkedin.com/company/kifolfertilizantes';
 
 export const URL_PHONE = '(18) 99723-0188';
 export const URL_PHONE_FORMATED = 'tel:+5518997230188';
