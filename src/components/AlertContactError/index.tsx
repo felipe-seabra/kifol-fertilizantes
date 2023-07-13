@@ -12,7 +12,7 @@ function AlertContactError() {
   }, []);
 
   return !submitForm ? (
-    <Navigate to="/contact" />
+    <Navigate to="/contato" />
   ) : (
     <Container>
       <div className="text-center">
