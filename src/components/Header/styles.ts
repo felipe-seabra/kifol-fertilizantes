@@ -84,6 +84,13 @@ export const Container = styled.div`
     color: ${(props) => props.theme.colors.secundary};
   }
 
+  .emoji {
+    display: flex;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+  }
+
   @media screen and (max-width: 991px) {
     .navlink,
     .switch {

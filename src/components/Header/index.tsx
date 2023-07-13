@@ -122,10 +122,12 @@ function Header({ toggleTheme }: Props): JSX.Element {
               checked={title === 'dark'}
               checkedIcon={false}
               uncheckedIcon={false}
+              uncheckedHandleIcon={<div className="emoji">🌚</div>}
+              checkedHandleIcon={<div className="emoji">🌞</div>}
               height={10}
               width={40}
               handleDiameter={20}
-              offColor={shade(0.15, colors.primary)}
+              offColor={shade(0.15, colors.secundary)}
               onColor={colors.secundary}
             />
           </Navbar.Collapse>
