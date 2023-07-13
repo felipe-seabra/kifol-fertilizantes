@@ -65,7 +65,7 @@ export const Container = styled.div`
     border: none;
     opacity: 1;
     transition: 0.4s;
-    border: solid ${(props) => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.primary};
   }
 
   .navbar-toggler:hover {
