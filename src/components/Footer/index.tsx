@@ -73,7 +73,7 @@ function Footer() {
           <FooterText>Estrada para 7 copas, Km 02</FooterText>
           <FooterText>Bairro União</FooterText>
           <FooterText>Presidente Prudente - SP</FooterText>
-          <FooterText>CEP: 19065-000</FooterText>
+          <FooterText>CEP: 19030-972</FooterText>
           <FooterText>Caixa Postal 2311 </FooterText>
 
           <FooterLink href={URL_GOOGLE_MAPS} target="_blank">
