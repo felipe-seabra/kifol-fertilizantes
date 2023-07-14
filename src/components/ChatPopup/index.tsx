@@ -78,11 +78,15 @@ function ChatPopup() {
                 placeholder="Fale conosco!"
               />
               <SendButton onClick={handleSendMessage}>
-                <IconSend className="bx bxs-paper-plane" style={{ color: 'white' }} />
+                <IconSend
+                  className="bx bxs-paper-plane"
+                  style={{ color: 'white' }}
+                  title="Enviar mensagem"
+                />
               </SendButton>
             </InputContainer>
             <CloseButton onClick={handleClosePopup}>
-              <Icon className="bx bx-x" style={{ color: 'white' }} />
+              <Icon className="bx bx-x" style={{ color: 'white' }} title="Fechar" />
             </CloseButton>
           </PopupContainer>
         </>
