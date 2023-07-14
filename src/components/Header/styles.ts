@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: relative;
+  background-color: ${(props) => props.theme.colors.background};
   width: 100%;
   padding-left: 30px;
   text-align: right;

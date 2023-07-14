@@ -24,7 +24,7 @@ const NAV_LINKS = [
   { path: '/', label: 'Home', iconClass: 'bx bx-home' },
   { path: '/sobre', label: 'Quem Somos', iconClass: 'bx bx-user' },
   { path: '/produtos', label: 'Produtos', iconClass: 'bx bx-lemon' },
-  // { path: '/novidades', label: 'Novidades', iconClass: 'bx bx-news' },
+  // { path: '/novidades', label: 'Notícias', iconClass: 'bx bx-news' },
   // { path: '/depoimentos', label: 'Depoimentos', iconClass: 'bx bx-notepad' },
   { path: '/contato', label: 'Contato', iconClass: 'bx bx-envelope' },
   {
@@ -80,7 +80,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
   };
 
   return (
-    <header>
+    <header className="fixed-top">
       <Container>
         <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand>
