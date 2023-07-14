@@ -16,6 +16,7 @@ export default createGlobalStyle`
   }
 
   main {
+    margin-top: 7.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +74,12 @@ export default createGlobalStyle`
     margin: 0;
   }
 
+  @media screen and (max-width: 990px) {
+    main{
+      margin-top: 6.5rem;
+    }
+  }
+
   ::-webkit-scrollbar {
     width: 10px;
     background: rgba(0, 0, 0, 0.2);
@@ -98,4 +105,5 @@ export default createGlobalStyle`
   /* Estilizando o canto inferior direito da barra de rolagem */
   ::-webkit-scrollbar-corner {
     background: rgba(241, 241, 241, 0.5);
+  }
 `;

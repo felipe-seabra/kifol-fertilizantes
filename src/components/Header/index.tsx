@@ -80,7 +80,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
   };
 
   return (
-    <header>
+    <header className="fixed-top">
       <Container>
         <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand>
