@@ -129,8 +129,8 @@ function Header({ toggleTheme }: Props): JSX.Element {
               checked={title === 'dark'}
               checkedIcon={false}
               uncheckedIcon={false}
-              uncheckedHandleIcon={<div className="emoji">🌚</div>}
-              checkedHandleIcon={<div className="emoji">🌞</div>}
+              uncheckedHandleIcon={<div className="emoji">🌞</div>}
+              checkedHandleIcon={<div className="emoji">🌚</div>}
               height={10}
               width={40}
               handleDiameter={20}
