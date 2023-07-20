@@ -126,7 +126,9 @@ export const products: IProduct[] = [
     image: AMINOFLOWER,
     name: 'AMINO FLOWER',
     description: [
-      `O KIFOL AMINO FLOWER é um fertilizante foliar líquido facilmente absorvido pelas folhas, caules e raízes das plantas. Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro proporciona uma nutrição equilibrada, que auxilia na melhoria da produtividade e qualidade da lavoura.`,
+      `O KIFOL AMINO FLOWER é um fertilizante foliar líquido facilmente absorvido pelas folhas, caules e raízes das plantas.`,
+
+      `Sua formulação rica em zinco, boro, molibdênio, cobalto, manganês e ferro proporciona uma nutrição equilibrada, que auxilia na melhoria da produtividade e qualidade da lavoura.`,
 
       `Com seu alto conteúdo nutricional e o uso adequado, especialmente em períodos e doses recomendadas, o fertilizante contribui para a recuperação das plantas em condições de estresse.`,
 
@@ -138,7 +140,9 @@ export const products: IProduct[] = [
     image: TEKS,
     name: 'TEKS',
     description: [
-      `O TEKS é um fertilizante líquido concentrado com uma formulação balanceada de Fósforo, Potássio e Enxofre. Este produto foi desenvolvido com o mais alto rigor tecnológico em termos de fertilizantes foliares. Sua fórmula, minuciosamente estudada, proporciona resultados satisfatórios em diversas culturas. O TEKS é facilmente absorvido pelas plantas, estimulando o metabolismo vegetal e promovendo o aumento radicular, o que resulta em uma maior absorção e aproveitamento dos nutrientes, inclusive aqueles aplicados no solo. Como resultado do uso racional do TEKS, as culturas apresentam um desenvolvimento vegetativo que resulta em maior produtividade e melhoria na qualidade dos frutos, incluindo coloração, brilho e peso. O enxofre é fundamental para a composição de proteínas e a nodulação de leguminosas. O potássio é um nutriente indispensável para a formação e maturação dos frutos, e o fósforo desempenha um papel importante em todas as fases da planta.`,
+      `O TEKS é um fertilizante líquido concentrado com uma formulação balanceada de Fósforo, Potássio e Enxofre.`,
+
+      `Este produto foi desenvolvido com o mais alto rigor tecnológico em termos de fertilizantes foliares. Sua fórmula, minuciosamente estudada, proporciona resultados satisfatórios em diversas culturas. O TEKS é facilmente absorvido pelas plantas, estimulando o metabolismo vegetal e promovendo o aumento radicular, o que resulta em uma maior absorção e aproveitamento dos nutrientes, inclusive aqueles aplicados no solo. Como resultado do uso racional do TEKS, as culturas apresentam um desenvolvimento vegetativo que resulta em maior produtividade e melhoria na qualidade dos frutos, incluindo coloração, brilho e peso. O enxofre é fundamental para a composição de proteínas e a nodulação de leguminosas. O potássio é um nutriente indispensável para a formação e maturação dos frutos, e o fósforo desempenha um papel importante em todas as fases da planta.`,
 
       `O TEKS não contém nitrogênio (N), o que torna este fertilizante adequado mesmo em épocas de chuvas constantes, sem o risco de amolecer as plantas e os frutos.`,
 

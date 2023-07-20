@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 import AboutCard from '../../components/AboutCard';
 import Banner from '../../components/Banner';
-import DepositionsCard from '../../components/DepositionsCard';
+import CardProductHome from '../../components/CardProductHome';
 
 function Home() {
   useEffect(() => {
@@ -16,7 +16,7 @@ function Home() {
     <Container>
       <Banner />
       <AboutCard />
-      <DepositionsCard />
+      <CardProductHome />
     </Container>
   );
 }
