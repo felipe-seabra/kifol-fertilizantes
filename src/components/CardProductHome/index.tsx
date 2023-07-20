@@ -26,7 +26,7 @@ function CardProductHome() {
               <Card.Title>{product.name}</Card.Title>
               <Card.Text>{product.description[0]}</Card.Text>
               <Button
-                className="button-product-home"
+                className="button-product"
                 variant="primary"
                 href={`/produtos/${product.id}`}>
                 SAIBA MAIS
@@ -35,7 +35,7 @@ function CardProductHome() {
           </Card>
         ))}
       </ContainerProducts>
-      <Button className="button-product-home" variant="primary" href="/produtos">
+      <Button className="button-product" variant="primary" href="/produtos">
         VEJA TODOS OS PRODUTOS
       </Button>
     </Container>

@@ -74,7 +74,9 @@ export const products: IProduct[] = [
     image: COBMOL,
     name: 'COBMOL',
     description: [
-      `O COBMOL é um fertilizante especialmente desenvolvido para corrigir as deficiências de molibdênio e cobalto em diversas culturas. O molibdênio desempenha um papel crucial na assimilação de nitrogênio na forma de nitratos.`,
+      `O COBMOL é um fertilizante especialmente desenvolvido para corrigir as deficiências de molibdênio e cobalto em diversas culturas.`,
+
+      `O molibdênio desempenha um papel crucial na assimilação de nitrogênio na forma de nitratos.`,
 
       `Além de suprir essas deficiências, o COBMOL estimula o metabolismo geral das plantas, aumentando a síntese de proteínas e proporcionando um resultado satisfatório no desenvolvimento e na frutificação.`,
 
@@ -118,7 +120,9 @@ export const products: IProduct[] = [
     image: GREENFOL,
     name: 'GREENFOL',
     description: [
-      `O GREENFOL é um fertilizante foliar líquido, elaborado para suprir as necessidades de magnésio, uma vez que este nutriente tem um papel elementar tanto na formação como na vida útil, rejuvenescendo as plantas. Sua fórmula concentrada, contém mecanismos que incorporam adjuvantes para maximizar a e?ciência agronômica, assegurando a qualidade física do produto.`
+      `O GREENFOL é um fertilizante foliar líquido, elaborado para suprir as necessidades de magnésio, uma vez que este nutriente tem um papel elementar tanto na formação como na vida útil, rejuvenescendo as plantas.`,
+
+      `Sua fórmula concentrada, contém mecanismos que incorporam adjuvantes para maximizar a e?ciência agronômica, assegurando a qualidade física do produto.`
     ]
   },
   {
