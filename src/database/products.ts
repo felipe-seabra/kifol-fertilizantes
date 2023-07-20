@@ -66,7 +66,7 @@ export const products: IProduct[] = [
     description: [
       `Produto destinado ao uso agrícola com a finalidade de suprir a deficiência de Fósforo e Potássio.`,
 
-      `Um produto desenvolvido para melhorar a formação, coloração, granulação e brilho dos frutos em plantas de interesse econômico.`
+      `Um produto desenvolvido para melhorar a formação, coloração, granulação e brilho dos frutos em plantas visando interesse econômico.`
     ]
   },
   {
