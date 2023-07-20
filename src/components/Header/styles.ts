@@ -91,6 +91,10 @@ export const Container = styled.div`
     align-items: center;
   }
 
+  .react-switch-handle {
+    // background: none !important;
+  }
+
   @media screen and (max-width: 991px) {
     .navlink,
     .switch {

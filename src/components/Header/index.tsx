@@ -15,6 +15,7 @@ import {
   URL_FACEBOOK,
   URL_LINKEDIN
 } from '../../database/social';
+import { MoonIcon, SunIcon } from '../../helpers/Icons';
 
 interface Props {
   toggleTheme(): void;
@@ -129,8 +130,16 @@ function Header({ toggleTheme }: Props): JSX.Element {
               checked={title === 'dark'}
               checkedIcon={false}
               uncheckedIcon={false}
-              uncheckedHandleIcon={<div className="emoji">🌞</div>}
-              checkedHandleIcon={<div className="emoji">🌚</div>}
+              uncheckedHandleIcon={
+                <div className="emoji">
+                  <SunIcon />
+                </div>
+              }
+              checkedHandleIcon={
+                <div className="emoji">
+                  <MoonIcon />
+                </div>
+              }
               height={10}
               width={40}
               handleDiameter={20}
