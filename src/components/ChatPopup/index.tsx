@@ -6,7 +6,7 @@ import {
   ChatContainer,
   CloseButton,
   Icon,
-  IconSend,
+  // IconSend,
   IconWhats,
   Input,
   InputContainer,
@@ -85,11 +85,12 @@ function ChatPopup() {
                 placeholder="Fale conosco!"
               />
               <SendButton type="button" onClick={handleSendMessage}>
-                <IconSend
+                {/* <IconSend
                   className="bx bxs-paper-plane"
                   style={{ color: 'white' }}
                   title="Enviar mensagem"
-                />
+                /> */}
+                Enviar
               </SendButton>
             </InputContainer>
             <CloseButton onClick={handleClosePopup}>
