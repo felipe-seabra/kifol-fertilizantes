@@ -15,7 +15,7 @@ export const videosHome: IVideo[] = [
     id: 2,
     title: 'Zezé Machado',
     url: zeze,
-    description: `No vídeo, Zezé Machado, renomado produtor da Região do Sul de Minas, relata sua experiência inicial com os produtos da Kifol Fertilizantes e os resultados obtidos a partir de seu uso.`
+    description: `Zezé Machado, renomado produtor da Região do Sul de Minas, relata sua experiência inicial com os produtos da Kifol Fertilizantes e os resultados obtidos a partir de seu uso.`
   },
   {
     id: 3,
