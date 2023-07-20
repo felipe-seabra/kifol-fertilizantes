@@ -42,6 +42,12 @@ function ChatPopup() {
     setMessage('');
   };
 
+  const handleKeyPress = (e: { key: string }) => {
+    if (e.key === 'Enter') {
+      handleSendMessage();
+    }
+  };
+
   const containerStyle = {
     bottom: isOpen ? '80px' : '20px',
     cursor: isOpen ? 'auto' : 'pointer'
@@ -75,9 +81,10 @@ function ChatPopup() {
                 type="text"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
+                onKeyPress={handleKeyPress}
                 placeholder="Fale conosco!"
               />
-              <SendButton onClick={handleSendMessage}>
+              <SendButton type="button" onClick={handleSendMessage}>
                 <IconSend
                   className="bx bxs-paper-plane"
                   style={{ color: 'white' }}
