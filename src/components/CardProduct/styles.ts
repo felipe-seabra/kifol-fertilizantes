@@ -4,12 +4,9 @@ export const ProductContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
-`;
+  margin: 0.5rem;
 
-export const ProductTitle = styled.h4`
-  margin-top: 1rem;
-  color: ${(props) => props.theme.colors.text};
+  color: #808080;
 `;
 
 export const ProductImage = styled.img`

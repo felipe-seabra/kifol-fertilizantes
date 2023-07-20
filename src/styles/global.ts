@@ -68,6 +68,17 @@ export default createGlobalStyle`
     cursor: not-allowed;
   }
 
+  .button-product {
+    background: ${(props) => props.theme.colors.primary};
+    border: 2px solid ${(props) => props.theme.colors.secundary};
+    color: ${(props) => props.theme.colors.background};
+  }
+
+  .button-product:hover {
+    background: ${(props) => props.theme.colors.secundary};
+    border: 2px solid ${(props) => props.theme.colors.primary};
+  }
+
   .required-field {
     color: #E5625E;
     font-size: 0.7em;
