@@ -13,12 +13,16 @@ import {
 import { products } from '../../database/products';
 import Separator from '../../components/Separator';
 import CardProduct from '../../components/CardProduct';
+import setPageDescription from '../../utils/setPageDescription';
 
 function Products() {
   const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
     setPageTitle('Produtos - Kifol Fertilizantes');
+    setPageDescription(
+      'Produtos Kifol Fertilizantes - O segredo dos produtores de sucesso.'
+    );
   }, []);
 
   const sortedProducts = products.sort((a, b) => a.name.localeCompare(b.name));

@@ -13,6 +13,7 @@ import {
 
 import { products } from '../../database/products';
 import { IProduct } from '../../interfaces';
+import setPageDescription from '../../utils/setPageDescription';
 
 function ProductDetail() {
   const { url } = useParams();
@@ -23,6 +24,9 @@ function ProductDetail() {
     setProductDB(productFound);
 
     setPageTitle(`${productFound?.name} - Kifol Fertilizantes`);
+    if (productFound?.description[0] === undefined)
+      setPageDescription('Produto Não Encontrato');
+    else setPageDescription(productFound?.description[0]);
   }, []);
 
   const { name, image, description } = productDB || {};

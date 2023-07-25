@@ -10,10 +10,14 @@ import { URL_FACEBOOK, URL_INSTAGRAM, URL_LINKEDIN } from '../../database/social
 import { vimeoId } from '../../database/videos';
 
 import VimeoVideo from '../../components/Video';
+import setPageDescription from '../../utils/setPageDescription';
 
 function About() {
   useEffect(() => {
     setPageTitle('Quem Somos - Kifol Fertilizantes');
+    setPageDescription(
+      'Conheça a Kifol Fertilizantes, uma empresa que atua no mercado de fertilizantes há mais de 45 anos.'
+    );
   }, []);
 
   return (

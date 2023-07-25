@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import setPageTitle from '../../utils/setPageTitle';
 
 import { Container } from './styles';
+import setPageDescription from '../../utils/setPageDescription';
 
 function Error() {
   useEffect(() => {
-    setPageTitle('Error 404 - Kifol Fertilizantes');
+    setPageTitle('Página Não Encontrada - Kifol Fertilizantes');
+    setPageDescription('Página não encontrada.');
   }, []);
 
   return (

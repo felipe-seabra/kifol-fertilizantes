@@ -6,12 +6,14 @@ import { Container } from './styles';
 import { AppContext } from '../../context/Provider';
 import Form from '../../components/Form';
 import Loading from '../../components/Loading';
+import setPageDescription from '../../utils/setPageDescription';
 
 function Contact() {
   const { submitForm, errorSubmitForm, isLoading } = useContext(AppContext);
 
   useEffect(() => {
     setPageTitle('Contato - Kifol Fertilizantes');
+    setPageDescription('Entre em contato com a Kifol Fertilizantes');
   }, []);
 
   let content;

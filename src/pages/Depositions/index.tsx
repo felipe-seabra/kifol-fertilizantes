@@ -6,6 +6,7 @@ import { videosPage as videos } from '../../database/videos';
 import { Container, TextContainer, VideosContainer } from './styles';
 import VideoCard from '../../components/VideoCard';
 import Separator from '../../components/Separator';
+import setPageDescription from '../../utils/setPageDescription';
 
 const TEXT = [
   `
@@ -17,6 +18,7 @@ const TEXT = [
 function Depositions() {
   useEffect(() => {
     setPageTitle('Depoimentos - Kifol Fertilizantes');
+    setPageDescription('Depoimentos de clientes e colaboradores da Kifol Fertilizantes.');
   }, []);
 
   return (
