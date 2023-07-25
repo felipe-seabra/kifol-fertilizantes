@@ -9,7 +9,7 @@ import CardProductHome from '../../components/CardProductHome';
 
 function Home() {
   useEffect(() => {
-    setPageTitle('Kifol Fertilizantes');
+    setPageTitle('Kifol Fertilizantes - A Nutrição Que Faz A Diferença');
   }, []);
 
   return (
