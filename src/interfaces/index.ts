@@ -15,6 +15,7 @@ export interface IVideo {
 
 export interface IProduct {
   id: number;
+  url: string;
   image: string;
   name: string;
   description: string[];

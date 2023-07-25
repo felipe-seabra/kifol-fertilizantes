@@ -14,7 +14,7 @@ function AboutCard() {
       <LogoAbout src={logo} alt="" />
       <TextContainer>
         {TEXTS.slice(0, 1).map((paragraph) => (
-          <p dangerouslySetInnerHTML={{ __html: paragraph }} /> // eslint-disable-line
+          <p dangerouslySetInnerHTML={{ __html: paragraph }} key={paragraph[0]} /> // eslint-disable-line
         ))}
         <VimeoVideo videoId={vimeoId} />
         <ContainerLinkBtn>

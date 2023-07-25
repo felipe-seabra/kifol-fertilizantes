@@ -21,6 +21,7 @@ import { IProduct } from '../interfaces';
 export const products: IProduct[] = [
   {
     id: 1,
+    url: 'organics',
     image: ORGANICS,
     name: 'ORGANICS',
     description: [
@@ -37,6 +38,7 @@ export const products: IProduct[] = [
   },
   {
     id: 2,
+    url: 'boro-10',
     image: BORO10,
     name: 'BORO 10%',
     description: [
@@ -47,6 +49,7 @@ export const products: IProduct[] = [
   },
   {
     id: 3,
+    url: 'calcio-boro',
     image: KIFOLMAX,
     name: 'CALCIO-BORO',
     description: [
@@ -61,6 +64,7 @@ export const products: IProduct[] = [
   },
   {
     id: 4,
+    url: 'calibre',
     image: CALIBRE,
     name: 'CALIBRE',
     description: [
@@ -71,6 +75,7 @@ export const products: IProduct[] = [
   },
   {
     id: 5,
+    url: 'cobmol',
     image: COBMOL,
     name: 'COBMOL',
     description: [
@@ -85,6 +90,7 @@ export const products: IProduct[] = [
   },
   {
     id: 6,
+    url: 'cupratil-cobre',
     image: CUPRATIL,
     name: 'CUPRATIL COBRE',
     description: [
@@ -97,6 +103,7 @@ export const products: IProduct[] = [
   },
   {
     id: 7,
+    url: 'zinfol',
     image: ZINFOL,
     name: 'ZINFOL',
     description: [
@@ -105,6 +112,7 @@ export const products: IProduct[] = [
   },
   {
     id: 8,
+    url: 'fosfito-4020',
     image: FOSFITO,
     name: 'FOSFITO 4020',
     description: [
@@ -117,6 +125,7 @@ export const products: IProduct[] = [
   },
   {
     id: 9,
+    url: 'greenfol',
     image: GREENFOL,
     name: 'GREENFOL',
     description: [
@@ -127,6 +136,7 @@ export const products: IProduct[] = [
   },
   {
     id: 10,
+    url: 'amino-flower',
     image: AMINOFLOWER,
     name: 'AMINO FLOWER',
     description: [
@@ -141,6 +151,7 @@ export const products: IProduct[] = [
   },
   {
     id: 11,
+    url: 'teks',
     image: TEKS,
     name: 'TEKS',
     description: [
@@ -155,6 +166,7 @@ export const products: IProduct[] = [
   },
   {
     id: 12,
+    url: 'strike',
     image: STRIKE,
     name: 'STRIKE',
     description: [
@@ -169,6 +181,7 @@ export const products: IProduct[] = [
   },
   {
     id: 13,
+    url: 'ki-folmax-00-10-50',
     image: ZERO1050,
     name: 'KI-FOLMAX 00-10-50',
     description: [
@@ -185,6 +198,7 @@ export const products: IProduct[] = [
   },
   {
     id: 14,
+    url: 'kifol-micros',
     image: FERTPOS,
     name: 'KIFOL MICROS',
     description: [
@@ -197,6 +211,7 @@ export const products: IProduct[] = [
   },
   {
     id: 15,
+    url: 'ki-folmax-09-50-10',
     image: ZERO91050,
     name: 'KI-FOLMAX 09-50-10',
     description: [
@@ -205,6 +220,7 @@ export const products: IProduct[] = [
   },
   {
     id: 16,
+    url: 'calcio-27',
     image: CALCIO27,
     name: 'CALCIO 27%',
     description: [

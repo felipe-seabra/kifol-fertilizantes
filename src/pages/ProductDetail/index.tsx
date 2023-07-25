@@ -15,11 +15,11 @@ import { products } from '../../database/products';
 import { IProduct } from '../../interfaces';
 
 function ProductDetail() {
-  const { id } = useParams();
+  const { url } = useParams();
   const [productDB, setProductDB] = useState<IProduct>();
 
   useEffect(() => {
-    const productFound = products.find((product) => product.id === Number(id));
+    const productFound = products.find((product) => product.url === url);
     setProductDB(productFound);
 
     setPageTitle(`${productFound?.name} - Kifol Fertilizantes`);

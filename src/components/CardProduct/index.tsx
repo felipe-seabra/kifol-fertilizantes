@@ -10,7 +10,7 @@ type CardProductProps = {
 };
 
 export default function CardProduct({
-  product: { id, image, name, description }
+  product: { url, image, name, description }
 }: CardProductProps) {
   const [loaded, setLoaded] = useState(false);
 
@@ -26,7 +26,7 @@ export default function CardProduct({
   };
 
   return (
-    <Link to={`/produtos/${id}`}>
+    <Link to={`/${url}`}>
       <ProductContainer>
         <Card style={{ width: '18rem', margin: '0.5rem', textAlign: 'center' }}>
           <Card.Img

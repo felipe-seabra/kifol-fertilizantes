@@ -20,7 +20,9 @@ function CardProductHome() {
       <Title>Produtos em Destaque</Title>
       <ContainerProducts>
         {firstThreeProducts.map((product) => (
-          <Card style={{ width: '18rem', margin: '0.5rem', textAlign: 'center' }}>
+          <Card
+            style={{ width: '18rem', margin: '0.5rem', textAlign: 'center' }}
+            key={product.id}>
             <Card.Img variant="top" src={product.image} />
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
@@ -28,7 +30,7 @@ function CardProductHome() {
               <Button
                 className="button-product"
                 variant="primary"
-                href={`/produtos/${product.id}`}>
+                href={`/${product.url}`}>
                 SAIBA MAIS
               </Button>
             </Card.Body>
