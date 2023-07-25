@@ -15,9 +15,9 @@ function Content() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/sobre" element={<About />} />
+      <Route path="/produtos-kifol" element={<Products />} />
       <Route path="/:url" element={<ProductDetail />} />
       <Route path="/produtos" element={<Products />} />
-      <Route path="/produtos-kifol" element={<Products />} />
       <Route path="/depoimentos" element={<Depositions />} />
       <Route path="/contato" element={<Contact />} />
       <Route path="/obrigado" element={<Thanks />} />
