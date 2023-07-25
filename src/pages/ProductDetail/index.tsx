@@ -33,7 +33,7 @@ function ProductDetail() {
       <DescriptionContainer>
         <ProductTitle>{name}</ProductTitle>
         {description?.map((paragraph) => (
-          <ProductDescription>{paragraph}</ProductDescription>
+          <ProductDescription key={paragraph[0]}>{paragraph}</ProductDescription>
         ))}
         <ContainerButtons>
           <Link className="product-btn" to="/contato">

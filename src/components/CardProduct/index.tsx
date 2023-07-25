@@ -47,7 +47,7 @@ export default function CardProduct({
           <Card.Body>
             <Card.Title className="product-titile">{name}</Card.Title>
             <Card.Text>{truncarDescricao(description[0], 100)}</Card.Text>
-            <Button className="button-product" variant="primary" href={`/produtos/${id}`}>
+            <Button className="button-product" variant="primary">
               SAIBA MAIS
             </Button>
           </Card.Body>
