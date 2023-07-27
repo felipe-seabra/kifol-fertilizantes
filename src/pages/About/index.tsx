@@ -24,7 +24,7 @@ function About() {
     <Container>
       <LogoAbout src={logo} />
       {TEXTS.map((text) => (
-        <TextAbout dangerouslySetInnerHTML={{ __html: text }} />
+        <TextAbout dangerouslySetInnerHTML={{ __html: text }} key={text} />
       ))}
       <VimeoVideo videoId={vimeoId} />
       <blockquote>
