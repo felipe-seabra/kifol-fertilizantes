@@ -101,7 +101,7 @@ function Form() {
               isValid={verifyFieldEmail(formValues.email)}
               text="Digite um e-mail válido!"
             />
-            <FloatingLabel label="E-mail:" className="mb-3">
+            <FloatingLabel label="E-mail: funalo@email.com" className="mb-3">
               <BootstrapForm.Control
                 type="email"
                 placeholder="name@example.com"
@@ -133,7 +133,7 @@ function Form() {
               isValid={verifyFieldMessage(formValues.message)}
               text="Insira uma mensagem!"
             />
-            <FloatingLabel label="Deixe sua mensagem aqui" className="mb-3">
+            <FloatingLabel label="Deixe sua mensagem aqui." className="mb-3">
               <BootstrapForm.Control
                 as="textarea"
                 placeholder="Deixe sua mensagem aqui"
