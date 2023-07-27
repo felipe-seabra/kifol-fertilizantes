@@ -126,6 +126,7 @@ function Header({ toggleTheme }: Props): JSX.Element {
             </Nav>
             <Switch
               className="switch"
+              name="switch-theme"
               onChange={toggleTheme}
               checked={title === 'dark'}
               checkedIcon={false}
