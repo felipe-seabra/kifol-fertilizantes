@@ -18,21 +18,24 @@ import setPageDescription from '../../utils/setPageDescription';
 function ProductDetail() {
   const { url } = useParams();
   const [productDB, setProductDB] = useState<IProduct>();
+  const [isProduct, setIsProduct] = useState(true);
 
   useEffect(() => {
     const productFound = products.find((product) => product.url === url);
     setProductDB(productFound);
 
     setPageTitle(`${productFound?.name} - Kifol Fertilizantes`);
-    if (productFound?.description[0] === undefined)
+    if (productFound?.description[0] === undefined) {
+      setIsProduct(false);
       setPageDescription('Produto Não Encontrato');
-    else setPageDescription(productFound?.description[0]);
+    } else setPageDescription(productFound?.description[0]);
   }, []);
 
   const { name, image, description } = productDB || {};
 
   return (
     <Container>
+      {!isProduct && <h1>Produto Não Encontrado</h1>}
       <ProductImage src={image} alt={name} />
       <DescriptionContainer>
         <ProductTitle>{name}</ProductTitle>
