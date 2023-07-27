@@ -24,6 +24,16 @@ export const ContainerProducts = styled.div`
   width: 90%;
   max-width: 1300px;
 
+  a {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
   @media screen and (max-width: 990px) {
     text-align: center;
   }

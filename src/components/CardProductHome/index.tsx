@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 
 import { Container, ContainerProducts, Title } from './styles';
 
 import { products } from '../../database/products';
 import Separator from '../Separator';
+import CardProduct from '../CardProduct';
 
 function CardProductHome() {
   const specificProductIds = [1, 11, 10];
@@ -20,21 +20,7 @@ function CardProductHome() {
       <Title>Produtos em Destaque</Title>
       <ContainerProducts>
         {firstThreeProducts.map((product) => (
-          <Card
-            style={{ width: '18rem', margin: '0.5rem', textAlign: 'center' }}
-            key={product.id}>
-            <Card.Img variant="top" src={product.image} />
-            <Card.Body>
-              <Card.Title>{product.name}</Card.Title>
-              <Card.Text>{product.description[0]}</Card.Text>
-              <Button
-                className="button-product"
-                variant="primary"
-                href={`/${product.url}`}>
-                SAIBA MAIS
-              </Button>
-            </Card.Body>
-          </Card>
+          <CardProduct product={product} key={product.id} />
         ))}
       </ContainerProducts>
       <Button className="button-product" variant="primary" href="/produtos">
