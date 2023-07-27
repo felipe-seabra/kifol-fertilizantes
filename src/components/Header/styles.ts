@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 100%;
   padding-left: 30px;
   text-align: right;
-  padding-right: ${window.matchMedia('(max-width: 768px)').matches ? '2em' : '30px'};
+  padding-right: 30px;
   border-top: 25px solid ${(props) => props.theme.colors.primary};
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   z-index: 999;
@@ -14,7 +14,7 @@ export const Container = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-right: ${window.matchMedia('(max-width: 992px)').matches ? '0' : '2em'};
+    padding-right: 2em;
     font-size: 1em;
   }
 
@@ -91,8 +91,12 @@ export const Container = styled.div`
     align-items: center;
   }
 
-  .react-switch-handle {
-    // background: none !important;
+  @media (max-width: 991px) {
+    padding-right: 2em;
+
+    .header__links {
+      padding-right: 0;
+    }
   }
 
   @media screen and (max-width: 991px) {
