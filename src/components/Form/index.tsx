@@ -88,6 +88,7 @@ function Form() {
             <FloatingLabel label="Nome completo" className="mb-3">
               <BootstrapForm.Control
                 type="text"
+                placeholder="Nome"
                 autoFocus
                 value={formValues.name}
                 name="name"
@@ -104,6 +105,7 @@ function Form() {
             <FloatingLabel label="E-mail: funalo@email.com" className="mb-3">
               <BootstrapForm.Control
                 type="email"
+                placeholder="E-mail"
                 value={formValues.email}
                 name="email"
                 autoComplete="on"
@@ -119,6 +121,7 @@ function Form() {
             <FloatingLabel label="Telefone: (99) 9999-9999" className="mb-3">
               <BootstrapForm.Control
                 type="tel"
+                placeholder="Phone"
                 value={formValues.phone}
                 name="phone"
                 autoComplete="on"
@@ -136,6 +139,7 @@ function Form() {
             <FloatingLabel label="Deixe sua mensagem aqui." className="mb-3">
               <BootstrapForm.Control
                 as="textarea"
+                placeholder="Mensagem"
                 style={{ height: '100px' }}
                 value={formValues.message}
                 name="message"
