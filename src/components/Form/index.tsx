@@ -88,10 +88,10 @@ function Form() {
             <FloatingLabel label="Nome completo" className="mb-3">
               <BootstrapForm.Control
                 type="text"
-                placeholder="Nome completo"
                 autoFocus
                 value={formValues.name}
                 name="name"
+                autoComplete="on"
                 onChange={(e) => setFormValues({ ...formValues, name: e.target.value })}
                 required
               />
@@ -104,9 +104,9 @@ function Form() {
             <FloatingLabel label="E-mail: funalo@email.com" className="mb-3">
               <BootstrapForm.Control
                 type="email"
-                placeholder="name@example.com"
                 value={formValues.email}
                 name="email"
+                autoComplete="on"
                 onChange={(e) => setFormValues({ ...formValues, email: e.target.value })}
                 required
               />
@@ -119,9 +119,9 @@ function Form() {
             <FloatingLabel label="Telefone: (99) 9999-9999" className="mb-3">
               <BootstrapForm.Control
                 type="tel"
-                placeholder="(xx)xxxxx-xxxx"
                 value={formValues.phone}
                 name="phone"
+                autoComplete="on"
                 onChange={(e) =>
                   setFormValues({ ...formValues, phone: phoneMask(e.target.value) })
                 }
@@ -136,10 +136,10 @@ function Form() {
             <FloatingLabel label="Deixe sua mensagem aqui." className="mb-3">
               <BootstrapForm.Control
                 as="textarea"
-                placeholder="Deixe sua mensagem aqui"
                 style={{ height: '100px' }}
                 value={formValues.message}
                 name="message"
+                autoComplete="off"
                 onChange={(e) =>
                   setFormValues({ ...formValues, message: e.target.value })
                 }
