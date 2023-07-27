@@ -7,6 +7,7 @@ background-repeat: repeat;
 background-size: contain;
 background-position: left top;
 width: 100%;
+height: 90vh !important;
 
 margin: 0;
 height: 100%;
@@ -72,7 +73,7 @@ user-select: none;
   border: 2px solid ${(props) => props.theme.colors.secundary};
   border-radius: 8px;
   font-size: 1.2rem;
-  color: ${(props) => props.theme.colors.primary};
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 0.1rem;
@@ -81,7 +82,6 @@ user-select: none;
 }
 
 .btn-go-home:hover{
-  color: ${(props) => props.theme.colors.primary};
   border: 2px solid ${(props) => props.theme.colors.primary};
 }
 
@@ -105,6 +105,21 @@ user-select: none;
 .central-body{
   padding: 17% 5% 10% 5%;
   text-align: center;
+}
+
+.title-404 {
+  font-size: 170px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.text-404 {
+  font-size: 25px;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin: 0;
 }
 
 .objects img{

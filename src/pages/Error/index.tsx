@@ -16,12 +16,9 @@ function Error() {
     <Container>
       <div className="pt-5">
         <div className="central-body">
-          <img
-            className="image-404"
-            src="http://salehriaz.com/404Page/img/404.svg"
-            width="300px"
-            alt="404"
-          />
+          <h1 className="title-404">404</h1>
+          <p className="text-404">Parece que você está</p>
+          <p className="text-404">perdido no espaço</p>
           <Link to="/" className="btn-go-home">
             VOLTAR
           </Link>
