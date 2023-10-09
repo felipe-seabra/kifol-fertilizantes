@@ -62,17 +62,17 @@ export const products: IProduct[] = [
       `Já o boro é um nutriente indispensável. A deficiência de boro pode resultar em rachaduras profundas e deformação dos frutos. A carência de boro também pode se manifestar por meio de clorose ou necrose dos brotos.`
     ]
   },
-  {
-    id: 4,
-    url: 'calibre',
-    image: CALIBRE,
-    name: 'CALIBRE',
-    description: [
-      `Produto destinado ao uso agrícola com a finalidade de suprir a deficiência de Fósforo e Potássio.`,
+  // {
+  //   id: 4,
+  //   url: 'calibre',
+  //   image: CALIBRE,
+  //   name: 'CALIBRE',
+  //   description: [
+  //     `Produto destinado ao uso agrícola com a finalidade de suprir a deficiência de Fósforo e Potássio.`,
 
-      `Um produto desenvolvido para melhorar a formação, coloração, granulação e brilho dos frutos em plantas visando interesse econômico.`
-    ]
-  },
+  //     `Um produto desenvolvido para melhorar a formação, coloração, granulação e brilho dos frutos em plantas visando interesse econômico.`
+  //   ]
+  // },
   {
     id: 5,
     url: 'cobmol',
