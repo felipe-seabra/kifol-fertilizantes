@@ -90,9 +90,9 @@ export const products: IProduct[] = [
   },
   {
     id: 6,
-    url: 'cupratil-cobre',
+    url: 'cupratil',
     image: CUPRATIL,
-    name: 'CUPRATIL COBRE',
+    name: 'CUPRATIL',
     description: [
       `O CUPRATIL é um fertilizante foliar líquido à base de Cobre.`,
 
@@ -112,9 +112,9 @@ export const products: IProduct[] = [
   },
   {
     id: 8,
-    url: 'fosfito-4020',
+    url: 'fosfito-40-20',
     image: FOSFITO,
-    name: 'FOSFITO 4020',
+    name: 'FOSFITO 40-20',
     description: [
       `O KIFOL FOSFITO é um fertilizante composto com características especiais, desenvolvido para suprir as deficiências de fósforo e potássio em plantas de diversas culturas por meio da aplicação foliar.`,
 
