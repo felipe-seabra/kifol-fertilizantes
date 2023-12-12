@@ -13,3 +13,5 @@ export const URL_GOOGLE_MAPS = `https://www.google.com/maps/place/Kifol+Fertiliz
 export const URL_WHATSAPP = 'https://api.whatsapp.com/send?phone=5518997514067&';
 export const URL_WHATSAPP_NUMBER = '(18) 99751-4067';
 export const URL_WHATSAPP_FORMATED = `${URL_WHATSAPP}text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20os%20produtos!`;
+
+export const URL_FORM = 'https://forms.gle/oTXqSSYh6GR3j8Lw5';

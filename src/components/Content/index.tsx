@@ -9,6 +9,9 @@ import Sorry from '../../pages/Sorry';
 import Depositions from '../../pages/Depositions';
 import Products from '../../pages/Products';
 import ProductDetail from '../../pages/ProductDetail';
+import RedirectToForm from '../RedirectToForm';
+
+import { URL_FORM } from '../../database/social';
 
 function Content() {
   return (
@@ -22,6 +25,7 @@ function Content() {
       <Route path="/contato" element={<Contact />} />
       <Route path="/obrigado" element={<Thanks />} />
       <Route path="/error" element={<Sorry />} />
+      <Route path="/formulario" element={<RedirectToForm url={URL_FORM} />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );
